@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FF" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="GG" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HH" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="II" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="JJ" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PP" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QQ" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="WW" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="XX" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <AA>02R  : 1</AA>
+    <BB>08K  : 1</BB>
+    <CC>G80   : 2</CC>
+    <DD>R53   : 1</DD>
+    <EE>21K  : 3</EE>
+    <FF>BPF  : 1</FF>
+    <GG>MRR  : 1</GG>
+    <HH>21K   : 1</HH>
+    <II>DTK  : 1</II>
+    <JJ>14K   : 5</JJ>
+    <KK>82R  : 2</KK>
+    <LL>A03R  : 1</LL>
+    <MM />
+    <NN />
+    <OO />
+    <PP />
+    <QQ />
+    <RR />
+    <SS />
+    <TT />
+    <UU />
+    <VV />
+    <WW />
+    <XX />
+  </DATA>
+</NewDataSet>

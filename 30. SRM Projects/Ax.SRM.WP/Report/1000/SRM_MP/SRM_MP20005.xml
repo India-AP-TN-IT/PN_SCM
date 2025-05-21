@@ -1,0 +1,207 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEAM_DIV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ROWNO" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STANDARD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQT_UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQT_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO_UCOST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PO_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="REQT_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_TELNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_LOCATION" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTE_ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTE_CHARGE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>1</ROWNO>
+    <PARTNM>무선 스캐너 배터리</PARTNM>
+    <STANDARD>M8300 배터리</STANDARD>
+    <MAKER>Data Logic</MAKER>
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>5</REQT_QTY>
+    <PO_UCOST>70000</PO_UCOST>
+    <PO_AMT>350000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>3</ROWNO>
+    <PARTNM>통전케이블</PARTNM>
+    <STANDARD>DM DDM-A</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>3</REQT_QTY>
+    <PO_UCOST>80000</PO_UCOST>
+    <PO_AMT>240000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>4</ROWNO>
+    <PARTNM>통전케이블</PARTNM>
+    <STANDARD>DM SAFTY/MANUAL</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>3</REQT_QTY>
+    <PO_UCOST>80000</PO_UCOST>
+    <PO_AMT>240000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>5</ROWNO>
+    <PARTNM>통전 케이블</PARTNM>
+    <STANDARD>MD FRONT MIRROR</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>3</REQT_QTY>
+    <PO_UCOST>80000</PO_UCOST>
+    <PO_AMT>240000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>6</ROWNO>
+    <PARTNM>통전케이블</PARTNM>
+    <STANDARD>RBK REAR -D/LOCK</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>5</REQT_QTY>
+    <PO_UCOST>80000</PO_UCOST>
+    <PO_AMT>400000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>7</ROWNO>
+    <PARTNM>통전케이블</PARTNM>
+    <STANDARD>RBK MIRROR</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>3</REQT_QTY>
+    <PO_UCOST>80000</PO_UCOST>
+    <PO_AMT>240000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <BIZCD>1001</BIZCD>
+    <VENDNM>(주)맥스</VENDNM>
+    <PONO>201410-0055</PONO>
+    <ROWNO>8</ROWNO>
+    <PARTNM>통전케이블</PARTNM>
+    <STANDARD>RBK FRONT LH 4버튼</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>3</REQT_QTY>
+    <PO_UCOST>80000</PO_UCOST>
+    <PO_AMT>240000</PO_AMT>
+    <REQT_DATE>2014-10-20</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>052-219-5042</MGRT_TELNO>
+    <LINENM>전산팀</LINENM>
+    <PO_DATE>2014-10-15</PO_DATE>
+    <ADDR>울산광역시 북구 효암로 336 (연암동)</ADDR>
+    <DELI_LOCATION>울산공장</DELI_LOCATION>
+    <NOTE_ADDR>우 : 683-370 울산시 북구 연암동 925-1 / 전화 (052)219-5216 / FAX (052)219-5210 / 발주담당 김혜경</NOTE_ADDR>
+    <NOTE_CHARGE>김혜경 (052-219-5261, kimhk@seoyoneh.com)</NOTE_CHARGE>
+  </DATA>
+</NewDataSet>

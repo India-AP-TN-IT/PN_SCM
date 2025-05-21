@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STD_YEAR1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STD_YEAR2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STD_YEAR3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL_SALES1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS_RATE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_SALES1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_TRADE_RATE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PERSON_SALES1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ASSETS1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QUITY1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT_RATE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TURNOVER_RATE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL_SALES2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS_RATE2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_SALES2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_TRADE_RATE2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PERSON_SALES2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ASSETS2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QUITY2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT_RATE2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TURNOVER_RATE2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL_SALES3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS_RATE3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_SALES3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_TRADE_RATE3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PERSON_SALES3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ASSETS3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QUITY3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT_RATE3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TURNOVER_RATE3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <VENDCD>100010</VENDCD>
+    <STD_YEAR1>2012</STD_YEAR1>
+    <STD_YEAR2>2013</STD_YEAR2>
+    <STD_YEAR3>2014</STD_YEAR3>
+    <TOTAL_SALES1>1</TOTAL_SALES1>
+    <BUSINESS_PROFITS1>0</BUSINESS_PROFITS1>
+    <BUSINESS_PROFITS_RATE1>10</BUSINESS_PROFITS_RATE1>
+    <HKMC_SALES1>1</HKMC_SALES1>
+    <HKMC_TRADE_RATE1>100</HKMC_TRADE_RATE1>
+    <PERSON_SALES1>0</PERSON_SALES1>
+    <ASSETS1>101</ASSETS1>
+    <DEBT1>100</DEBT1>
+    <QUITY1>1</QUITY1>
+    <DEBT_RATE1>10000</DEBT_RATE1>
+    <TURNOVER_RATE1>100</TURNOVER_RATE1>
+    <TOTAL_SALES2>735.20</TOTAL_SALES2>
+    <BUSINESS_PROFITS2>1.50</BUSINESS_PROFITS2>
+    <BUSINESS_PROFITS_RATE2>0</BUSINESS_PROFITS_RATE2>
+    <HKMC_SALES2>735.20</HKMC_SALES2>
+    <HKMC_TRADE_RATE2>100</HKMC_TRADE_RATE2>
+    <PERSON_SALES2>5.20</PERSON_SALES2>
+    <ASSETS2>193.20</ASSETS2>
+    <DEBT2>132.60</DEBT2>
+    <QUITY2>60.60</QUITY2>
+    <DEBT_RATE2>219</DEBT_RATE2>
+    <TURNOVER_RATE2>1213</TURNOVER_RATE2>
+  </DATA>
+</NewDataSet>

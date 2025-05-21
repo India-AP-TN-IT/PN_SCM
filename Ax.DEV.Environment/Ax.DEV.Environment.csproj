@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C775F385-B3F4-4DC6-A6C3-C4249403D45A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ax.DEV.Environment</RootNamespace>
+    <AssemblyName>Ax.DEV.Environment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assemblies\Antlr3.Runtime.dll" />
+    <Content Include="Assemblies\dnlib.dll" />
+    <Content Include="Assemblies\DocumentFormat.OpenXml.dll" />
+    <Content Include="Assemblies\DocumentFormat.OpenXml.xml" />
+    <Content Include="Assemblies\Ext.Net.dll" />
+    <Content Include="Assemblies\Ext.Net.MVC.dll" />
+    <Content Include="Assemblies\Ext.Net.pdb" />
+    <Content Include="Assemblies\Ext.Net.Utilities.dll" />
+    <Content Include="Assemblies\Ext.Net.Utilities.xml" />
+    <Content Include="Assemblies\Ext.Net.UX.dll" />
+    <Content Include="Assemblies\Ext.Net.xml" />
+    <Content Include="Assemblies\HE.Framework.Core.dll" />
+    <Content Include="Assemblies\HE.Framework.ServiceModel.dll" />
+    <Content Include="Assemblies\HE.Framework.Transactions.dll" />
+    <Content Include="Assemblies\HE.Framework.UIModel.dll" />
+    <Content Include="Assemblies\HE.Framework.Windows.Forms.dll" />
+    <Content Include="Assemblies\itextsharp.dll" />
+    <Content Include="Assemblies\itextsharp.licensekey.dll" />
+    <Content Include="Assemblies\itextsharp.pdfa.dll" />
+    <Content Include="Assemblies\itextsharp.xfaworker.dll" />
+    <Content Include="Assemblies\iTextSharp.xml" />
+    <Content Include="Assemblies\itextsharp.xmlworker.dll" />
+    <Content Include="Assemblies\itextsharp.xtra.dll" />
+    <Content Include="Assemblies\Jint.dll" />
+    <Content Include="Assemblies\log4net.dll" />
+    <Content Include="Assemblies\log4net.xml" />
+    <Content Include="Assemblies\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="Assemblies\Newtonsoft.Json.dll" />
+    <Content Include="Assemblies\Newtonsoft.Json.xml" />
+    <Content Include="Assemblies\OneCorLib.dll" />
+    <Content Include="Assemblies\Oracle.DataAccess.dll" />
+    <Content Include="Assemblies\RexServer.dll" />
+    <Content Include="Assemblies\TheOne.Data.dll" />
+    <Content Include="Assemblies\TheOne.Data.Odp.dll" />
+    <Content Include="Assemblies\TheOne.Data.Oracle.dll" />
+    <Content Include="Assemblies\TheOne.ServiceModel.dll" />
+    <Content Include="Assemblies\TheOne.Transactions.dll" />
+    <Content Include="Assemblies\TheOne.UIModel.dll" />
+    <Content Include="Assemblies\TheOne.Windows.Forms.dll" />
+    <Content Include="Assemblies\Transformer.NET.dll" />
+    <Content Include="Assemblies\Transformer.NET.xml" />
+    <Content Include="Assemblies\WebActivatorEx.dll" />
+    <Content Include="ReportManual\Rex문법.txt" />
+    <Content Include="ReportManual\디자이너단축키.txt" />
+    <Content Include="Software\Rexpert3 Install%281.0.0.407%29.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assemblies\itextsharp-all-5.5.5.zip" />
+    <None Include="ReportManual\교육가이드 - 고급.pptx" />
+    <None Include="ReportManual\교육가이드 - 중급.pptx" />
+    <None Include="ReportManual\교육가이드 - 초급.pptx" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

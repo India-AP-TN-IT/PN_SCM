@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FACILNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKER1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARK1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FACILCNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+  <DATA />
+</NewDataSet>

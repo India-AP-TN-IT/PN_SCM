@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Ax.EP.HCM.WS.EPService;customBindingMap" CodeBehind="EPService.svc.cs" 
+    Factory="TheOne.ServiceModel.ServiceHostFactory, TheOne.ServiceModel"%>

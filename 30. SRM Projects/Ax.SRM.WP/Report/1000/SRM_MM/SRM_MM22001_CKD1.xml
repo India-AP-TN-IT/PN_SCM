@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VEND_CMPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_REPRESENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_CUSTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_ADDRESS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHIP_CMPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHIP_REPRESENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHIP_CUSTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHIP_ADDRESS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="RCV_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NATIONNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CASE_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <VEND_CMPNO>312-81-49360</VEND_CMPNO>
+    <VEND_REPRESENM>김장한,김정동</VEND_REPRESENM>
+    <VEND_CUSTNM>한일산업(주)아산</VEND_CUSTNM>
+    <VEND_ADDRESS>충남 아산시 신창면 궁화리 96-35</VEND_ADDRESS>
+    <SHIP_CMPNO>620-85-00096</SHIP_CMPNO>
+    <SHIP_REPRESENM>유양석</SHIP_REPRESENM>
+    <SHIP_CUSTNM>HAN IL E HWA CO., LTD. Ulsan Plant</SHIP_CUSTNM>
+    <SHIP_ADDRESS>울산시 북구 연암동  925-1</SHIP_ADDRESS>
+    <DELI_DATE>2012-02-24</DELI_DATE>
+    <DELI_CNT>4</DELI_CNT>
+    <RCV_VENDNM>100023 : 한일산업(주)아산</RCV_VENDNM>
+    <NATIONNM>미국</NATIONNM>
+    <CASE_VENDNM>100274 : 대호물류산업(주)아산지점</CASE_VENDNM>
+    <CUSTCD>20007</CUSTCD>
+  </Table>
+</NewDataSet>

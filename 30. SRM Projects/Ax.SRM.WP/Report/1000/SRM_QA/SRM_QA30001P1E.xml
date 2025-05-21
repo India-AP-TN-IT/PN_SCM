@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HANGUL_COM_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KIND" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="APNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PUM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USER_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BADPOS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OKQTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOQTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SCHK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INQTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOPRT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CONF_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INSPECT_DIV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_STATUS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <HANGUL_COM_NM>(주)신진엔지니어링</HANGUL_COM_NM>
+    <YMD>2014-10-09</YMD>
+    <SER>201410090003</SER>
+    <KIND>MD</KIND>
+    <LOTNO>2014-10-08</LOTNO>
+    <MPNO>M0430-3X031RBR</MPNO>
+    <APNM>MODULE ASSY-RR CTR TRIM,LH</APNM>
+    <PUM>DR TRIM</PUM>
+    <USER_NM>조항래</USER_NM>
+    <REMARK>원단 올빠짐</REMARK>
+    <BADPOS>Line</BADPOS>
+    <OKQTY>0</OKQTY>
+    <NOQTY>7</NOQTY>
+    <SCHK>반송</SCHK>
+    <RYMD>2014-10-16</RYMD>
+    <INQTY>0</INQTY>
+    <NOPRT>0</NOPRT>
+    <CONF_DATE>2014-10-16</CONF_DATE>
+    <INSPECT_DIV>수입검사</INSPECT_DIV>
+    <VEND_STATUS />
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ3020_R01</RPT_NO>
+  </DATA>
+</NewDataSet>

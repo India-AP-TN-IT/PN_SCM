@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ROWNUM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDRESS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUWT_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUOT_DUTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUOT_TEL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FAX" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STANDARD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNITNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUOT_UCOST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QUOT_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUOT_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <ROWNUM>1</ROWNUM>
+    <VENDCD>107637</VENDCD>
+    <VENDNM>영테크주식회사</VENDNM>
+    <ADDRESS>경상남도 양산시 상북면 소토4길 15</ADDRESS>
+    <QUWT_DATE>2014-10-01</QUWT_DATE>
+    <QUOT_DUTY>이정영</QUOT_DUTY>
+    <QUOT_TEL>010-5028-7950</QUOT_TEL>
+    <FAX />
+    <PONO>201409-0137</PONO>
+    <PARTNM>U-PACKING</PARTNM>
+    <STANDARD>IDM-71*91*12</STANDARD>
+    <MAKER>NOK</MAKER>
+    <UNITNM>EA</UNITNM>
+    <QTY>5</QTY>
+    <QUOT_UCOST>10500</QUOT_UCOST>
+    <QUOT_AMT>52500</QUOT_AMT>
+    <DELI_DATE>20141010</DELI_DATE>
+    <QUOT_QTY>5</QUOT_QTY>
+  </DATA>
+  <DATA>
+    <ROWNUM>2</ROWNUM>
+    <VENDCD>107637</VENDCD>
+    <VENDNM>영테크주식회사</VENDNM>
+    <ADDRESS>경상남도 양산시 상북면 소토4길 15</ADDRESS>
+    <QUWT_DATE>2014-10-01</QUWT_DATE>
+    <QUOT_DUTY>이정영</QUOT_DUTY>
+    <QUOT_TEL>010-5028-7950</QUOT_TEL>
+    <FAX />
+    <PONO>201409-0137</PONO>
+    <PARTNM>DUST SEAL</PARTNM>
+    <STANDARD>LBM-71*81*6*8</STANDARD>
+    <MAKER>NOK</MAKER>
+    <UNITNM>EA</UNITNM>
+    <QTY>5</QTY>
+    <QUOT_UCOST>4500</QUOT_UCOST>
+    <QUOT_AMT>22500</QUOT_AMT>
+    <DELI_DATE>20141010</DELI_DATE>
+    <QUOT_QTY>5</QUOT_QTY>
+  </DATA>
+  <DATA>
+    <ROWNUM>3</ROWNUM>
+    <VENDCD>107637</VENDCD>
+    <VENDNM>영테크주식회사</VENDNM>
+    <ADDRESS>경상남도 양산시 상북면 소토4길 15</ADDRESS>
+    <QUWT_DATE>2014-10-01</QUWT_DATE>
+    <QUOT_DUTY>이정영</QUOT_DUTY>
+    <QUOT_TEL>010-5028-7950</QUOT_TEL>
+    <FAX />
+    <PONO>201409-0137</PONO>
+    <PARTNM>O-RING</PARTNM>
+    <STANDARD>1B-P115</STANDARD>
+    <MAKER>NOK</MAKER>
+    <UNITNM>EA</UNITNM>
+    <QTY>10</QTY>
+    <QUOT_UCOST>2300</QUOT_UCOST>
+    <QUOT_AMT>23000</QUOT_AMT>
+    <DELI_DATE>20141010</DELI_DATE>
+    <QUOT_QTY>10</QUOT_QTY>
+  </DATA>
+  <DATA>
+    <ROWNUM>4</ROWNUM>
+    <VENDCD>107637</VENDCD>
+    <VENDNM>영테크주식회사</VENDNM>
+    <ADDRESS>경상남도 양산시 상북면 소토4길 15</ADDRESS>
+    <QUWT_DATE>2014-10-01</QUWT_DATE>
+    <QUOT_DUTY>이정영</QUOT_DUTY>
+    <QUOT_TEL>010-5028-7950</QUOT_TEL>
+    <FAX />
+    <PONO>201409-0137</PONO>
+    <PARTNM>U-PACKING</PARTNM>
+    <STANDARD>ODM-125*112*9</STANDARD>
+    <MAKER>NOK</MAKER>
+    <UNITNM>EA</UNITNM>
+    <QTY>10</QTY>
+    <QUOT_UCOST>12000</QUOT_UCOST>
+    <QUOT_AMT>120000</QUOT_AMT>
+    <DELI_DATE>20141010</DELI_DATE>
+    <QUOT_QTY>10</QUOT_QTY>
+  </DATA>
+  <DATA>
+    <ROWNUM>5</ROWNUM>
+    <VENDCD>107637</VENDCD>
+    <VENDNM>영테크주식회사</VENDNM>
+    <ADDRESS>경상남도 양산시 상북면 소토4길 15</ADDRESS>
+    <QUWT_DATE>2014-10-01</QUWT_DATE>
+    <QUOT_DUTY>이정영</QUOT_DUTY>
+    <QUOT_TEL>010-5028-7950</QUOT_TEL>
+    <FAX />
+    <PONO>201409-0137</PONO>
+    <PARTNM>WEAR RING</PARTNM>
+    <STANDARD>125*119*30*3</STANDARD>
+    <MAKER>NOK</MAKER>
+    <UNITNM>EA</UNITNM>
+    <QTY>5</QTY>
+    <QUOT_UCOST>12500</QUOT_UCOST>
+    <QUOT_AMT>62500</QUOT_AMT>
+    <DELI_DATE>20141010</DELI_DATE>
+    <QUOT_QTY>5</QUOT_QTY>
+  </DATA>
+</NewDataSet>

@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ITEMCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ITEMNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STANDARD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="WEIGHT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PACK_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BEG_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="END_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EMPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_ID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATE_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <BIZNM>울산사업장</BIZNM>
+    <VENDCD>100070</VENDCD>
+    <VENDNM>현진상사</VENDNM>
+    <PARTNO>88550-02001</PARTNO>
+    <PARTNM>TRACK ASS`Y F/S INR RH</PARTNM>
+    <VINCD>A3DMC</VINCD>
+    <VINNM>DM CHINA</VINNM>
+    <ITEMCD>A41002</ITEMCD>
+    <ITEMNM>AIR GUARD</ITEMNM>
+    <STANDARD>def33332221</STANDARD>
+    <WEIGHT>345345.000010</WEIGHT>
+    <PACK_QTY>0</PACK_QTY>
+    <BEG_DATE>2014-07-29</BEG_DATE>
+    <END_DATE>2014-07-30</END_DATE>
+    <EMPNO>1</EMPNO>
+    <UPDATE_ID>061208</UPDATE_ID>
+    <UPDATE_DATE>2014-08-22 14:42:00</UPDATE_DATE>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <BIZNM>울산사업장</BIZNM>
+    <VENDCD>100000</VENDCD>
+    <VENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</VENDNM>
+    <PARTNO>22511-22541</PARTNO>
+    <PARTNM>H/B-3DR LH GL</PARTNM>
+    <VINCD>A3IB_CROSS</VINCD>
+    <VINNM>NEW I20 INDIA CROSS</VINNM>
+    <ITEMCD>A41004</ITEMCD>
+    <ITEMNM>ANTI NIOSE BELT COVER</ITEMNM>
+    <STANDARD>233222 1</STANDARD>
+    <WEIGHT>0</WEIGHT>
+    <PACK_QTY>1111</PACK_QTY>
+    <BEG_DATE>2014-07-30</BEG_DATE>
+    <END_DATE>2014-07-31</END_DATE>
+    <EMPNO>061212</EMPNO>
+    <UPDATE_ID>061208</UPDATE_ID>
+    <UPDATE_DATE>2014-07-30 09:36:27</UPDATE_DATE>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <BIZNM>울산사업장</BIZNM>
+    <VENDCD>100000</VENDCD>
+    <VENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</VENDNM>
+    <PARTNO>88550-02001</PARTNO>
+    <PARTNM>TRACK ASS`Y F/S INR RH</PARTNM>
+    <VINCD>A3JFC</VINCD>
+    <VINNM>NEW K5(JF) CHINA</VINNM>
+    <ITEMCD>A41004</ITEMCD>
+    <ITEMNM>ANTI NIOSE BELT COVER</ITEMNM>
+    <STANDARD>233222 1</STANDARD>
+    <WEIGHT>111123.123450</WEIGHT>
+    <PACK_QTY>1111111</PACK_QTY>
+    <BEG_DATE>2014-07-30</BEG_DATE>
+    <END_DATE>2014-07-31</END_DATE>
+    <EMPNO>061212</EMPNO>
+    <UPDATE_ID>061208</UPDATE_ID>
+    <UPDATE_DATE>2014-08-22 14:38:06</UPDATE_DATE>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <BIZCD>1001</BIZCD>
+    <BIZNM>울산사업장</BIZNM>
+    <VENDCD>100023</VENDCD>
+    <VENDNM>한일산업(주)아산</VENDNM>
+    <PARTNO>20310-22200FK</PARTNO>
+    <PARTNM>CLOTH-WM13FK</PARTNM>
+    <VINCD>A3DM</VINCD>
+    <VINNM>DM</VINNM>
+    <ITEMCD>A41007</ITEMCD>
+    <ITEMNM>BACK DOOR</ITEMNM>
+    <STANDARD>43535</STANDARD>
+    <WEIGHT>0.000040</WEIGHT>
+    <PACK_QTY>4440</PACK_QTY>
+    <BEG_DATE>2014-09-01</BEG_DATE>
+    <END_DATE>2014-09-01</END_DATE>
+    <EMPNO>222222</EMPNO>
+    <UPDATE_ID>DEV1</UPDATE_ID>
+    <UPDATE_DATE>2014-09-01 17:44:46</UPDATE_DATE>
+  </DATA>
+</NewDataSet>

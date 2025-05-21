@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNITNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PAL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REC_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPIRY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIV_TIME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BOX_COUNT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_NOTE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BARCODE>P4FS022010001001</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <BARCODE>P4FS022010001002</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <BARCODE>P4FS022010001003</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <BARCODE>P4FS022010001004</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <BARCODE>P4FS022010001005</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <BARCODE>P4FS022010001006</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+  <DATA>
+    <BARCODE>P4FS022010001007</BARCODE>
+    <PARTNO>84610-2YBA0V9P</PARTNO>
+    <PARTNM>CONSOLE ASSY-FLOOR(NON FOB)</PARTNM>
+    <DELI_DATE>2015-03-16</DELI_DATE>
+    <QTY>1</QTY>
+    <UNITNM>EA</UNITNM>
+    <PAL>PAL</PAL>
+    <REC_DATE>2015-03-16</REC_DATE>
+    <EXPIRY></EXPIRY>
+    <LOTNO>20150414</LOTNO>
+    <ARRIV_TIME>04:00</ARRIV_TIME>
+    <BOX_COUNT>1/4</BOX_COUNT>
+    <VENDCD>A009</VENDCD>
+    <VENDNM>AUDI AG NECKARSULM</VENDNM>
+    <DELI_NOTE>6210201810117464</DELI_NOTE>
+    <MAT_TYPE>EAG</MAT_TYPE>
+    <MAT_TYPE_NM>Goods</MAT_TYPE_NM>
+  </DATA>
+</NewDataSet>

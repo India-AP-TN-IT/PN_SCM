@@ -1,0 +1,340 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NUM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COUNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="M_TAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ACYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <NUM>1</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100003</VEND>
+    <VEND_NM>(주)한일씨엔에프</VEND_NM>
+    <COUNT>24</COUNT>
+    <TAMT>310438</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>310438</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>2</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100010</VEND>
+    <VEND_NM>(주)신진엔지니어링</VEND_NM>
+    <COUNT>4</COUNT>
+    <TAMT>19394</TAMT>
+    <M_TAMT>6302</M_TAMT>
+    <TOTAL>13092</TOTAL>
+    <ACYMD>2014-10-15</ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>3</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100012</VEND>
+    <VEND_NM>한진피엘(주)</VEND_NM>
+    <COUNT>29</COUNT>
+    <TAMT>518132</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>518132</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>4</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100014</VEND>
+    <VEND_NM>(주)창성테크</VEND_NM>
+    <COUNT>2</COUNT>
+    <TAMT>15206</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>15206</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>5</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100015</VEND>
+    <VEND_NM>범양기업</VEND_NM>
+    <COUNT>10</COUNT>
+    <TAMT>143541</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>143541</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>6</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100017</VEND>
+    <VEND_NM>(주)제이제이케이</VEND_NM>
+    <COUNT>4</COUNT>
+    <TAMT>57072</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>57072</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>7</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100018</VEND>
+    <VEND_NM>(주)일광</VEND_NM>
+    <COUNT>5</COUNT>
+    <TAMT>66644</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>66644</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>8</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100019</VEND>
+    <VEND_NM>광명산업(주)경주공장</VEND_NM>
+    <COUNT>59</COUNT>
+    <TAMT>1050692</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>1050692</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>9</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100021</VEND>
+    <VEND_NM>(유)아이티더블유오토모티브코리아</VEND_NM>
+    <COUNT>175</COUNT>
+    <TAMT>1408002</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>1408002</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>10</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100025</VEND>
+    <VEND_NM>한일산업(주)</VEND_NM>
+    <COUNT>105</COUNT>
+    <TAMT>794728</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>794728</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>11</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100027</VEND>
+    <VEND_NM>(주)동원산업</VEND_NM>
+    <COUNT>234</COUNT>
+    <TAMT>2380933</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>2380933</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>12</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100033</VEND>
+    <VEND_NM>(주) 대동</VEND_NM>
+    <COUNT>492</COUNT>
+    <TAMT>4562665</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>4562665</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>13</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100034</VEND>
+    <VEND_NM>대성전기공업(주)</VEND_NM>
+    <COUNT>269</COUNT>
+    <TAMT>1950491</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>1950491</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>14</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100038</VEND>
+    <VEND_NM>현대모비스(주)</VEND_NM>
+    <COUNT>84</COUNT>
+    <TAMT>1814512</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>1814512</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>15</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100039</VEND>
+    <VEND_NM>한국오므론전장(주)</VEND_NM>
+    <COUNT>7</COUNT>
+    <TAMT>59193</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>59193</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>16</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100044</VEND>
+    <VEND_NM>승보오토모티브(주)</VEND_NM>
+    <COUNT>46</COUNT>
+    <TAMT>186514</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>186514</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>17</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100046</VEND>
+    <VEND_NM>(주)용산</VEND_NM>
+    <COUNT>1</COUNT>
+    <TAMT>32288</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>32288</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>18</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100048</VEND>
+    <VEND_NM>(주)큰솔</VEND_NM>
+    <COUNT>6</COUNT>
+    <TAMT>30851</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>30851</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>19</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100053</VEND>
+    <VEND_NM>(주)세양</VEND_NM>
+    <COUNT>4</COUNT>
+    <TAMT>13999</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>13999</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>20</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100063</VEND>
+    <VEND_NM>한화엘앤씨(주)진해공장</VEND_NM>
+    <COUNT>9</COUNT>
+    <TAMT>28742</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>28742</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>21</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100084</VEND>
+    <VEND_NM>(주)니프코코리아울산공장</VEND_NM>
+    <COUNT>5</COUNT>
+    <TAMT>53967</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>53967</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>22</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100087</VEND>
+    <VEND_NM>한국TRW자동차부품산업(주)</VEND_NM>
+    <COUNT>3</COUNT>
+    <TAMT>27836</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>27836</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>23</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100095</VEND>
+    <VEND_NM>(주)화진</VEND_NM>
+    <COUNT>12</COUNT>
+    <TAMT>139369</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>139369</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+  <DATA>
+    <NUM>24</NUM>
+    <TNO>2014년10월</TNO>
+    <VEND>100096</VEND>
+    <VEND_NM>(주)에스엘라이팅</VEND_NM>
+    <COUNT>2</COUNT>
+    <TAMT>40698</TAMT>
+    <M_TAMT>0</M_TAMT>
+    <TOTAL>40698</TOTAL>
+    <ACYMD xml:space="preserve"> </ACYMD>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ2080_R01</RPT_NO>
+  </DATA>
+</NewDataSet>

@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+				<xs:element name="VEND_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLANT_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINE_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ALC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CTOT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C4" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C5" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C6" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C7" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C8" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C9" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C10" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C11" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C12" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C13" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C14" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C15" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C16" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C17" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C18" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C19" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C20" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C21" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C22" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C23" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C24" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C25" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C26" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C27" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C28" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C29" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C30" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C31" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C32" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C33" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C34" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C35" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C36" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C37" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C38" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C39" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C40" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C41" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C42" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C43" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C44" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C45" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="기준일" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="업체명" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+	<VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>20141028</YMD>
+    <ALC>01  </ALC>
+    <CTOT>7</CTOT>
+    <C1>0</C1>
+    <C2>0</C2>
+    <C3>3</C3>
+    <C4>1</C4>
+    <C5>0</C5>
+    <C6>1</C6>
+    <C7>0</C7>
+    <C8>0</C8>
+    <C9>0</C9>
+    <C10>1</C10>
+    <C11>0</C11>
+    <C12>0</C12>
+    <C13>0</C13>
+    <C14>0</C14>
+    <C15>1</C15>
+    <C16>0</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+    <C20>0</C20>
+    <C21>0</C21>
+    <C22>0</C22>
+    <C23>0</C23>
+    <C24>0</C24>
+    <C25>0</C25>
+    <C26>0</C26>
+    <C27>0</C27>
+    <C28>0</C28>
+    <C29>0</C29>
+    <C30>0</C30>
+    <C31>0</C31>
+    <C32>0</C32>
+    <C33>0</C33>
+    <C34>0</C34>
+    <C35>0</C35>
+    <C36>0</C36>
+    <C37>0</C37>
+    <C38>0</C38>
+    <C39>0</C39>
+    <C40>0</C40>
+    <C41>0</C41>
+    <C42>0</C42>
+    <C43>0</C43>
+    <C44>0</C44>
+    <C45>0</C45>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3020_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+</NewDataSet>

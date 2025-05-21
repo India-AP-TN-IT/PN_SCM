@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VEND" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPYM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DOCCNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUMDIS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUMMAN" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUMTOT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VEND>100010</VEND>
+    <VEND_NM>(주)신진엔지니어링 대표(이사)</VEND_NM>
+    <TNO>201410200001</TNO>
+    <UPYM>2014-10</UPYM>
+    <UPYMD>2014-10-20</UPYMD>
+    <DOCCNT>1</DOCCNT>
+    <SUMDIS>93850</SUMDIS>
+    <SUMMAN>24578</SUMMAN>
+    <SUMTOT>118428</SUMTOT>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ3040_RPT</RPT_NO>
+  </DATA>
+</NewDataSet>

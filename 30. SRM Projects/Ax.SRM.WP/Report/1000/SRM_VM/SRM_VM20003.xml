@@ -1,0 +1,393 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REP_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TEL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FAX" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TEAM_DIVCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TEAM_DIVNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TEAM_DIVNM2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQNO" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="COL_CNT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SORT_SEQ" msprop:OraDbType="122" type="xs:float" minOccurs="0" />
+                <xs:element name="TITLE_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHARGE_JOB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TELNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CELLNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="E_MAIL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHA</TEAM_DIVCD>
+    <TEAM_DIVNM>대표자</TEAM_DIVNM>
+    <TEAM_DIVNM2>대표자</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>1</COL_CNT>
+    <SORT_SEQ>1</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHB</TEAM_DIVCD>
+    <TEAM_DIVNM>담당중역</TEAM_DIVNM>
+    <TEAM_DIVNM2>담당중역</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>2</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHB</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>담당중역</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>2</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHC</TEAM_DIVCD>
+    <TEAM_DIVNM>영업팀</TEAM_DIVNM>
+    <TEAM_DIVNM2>영업팀</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>3</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHC</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>영업팀</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>3</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHD</TEAM_DIVCD>
+    <TEAM_DIVNM>자재관리팀</TEAM_DIVNM>
+    <TEAM_DIVNM2>자재관리팀</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>4</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHD</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>자재관리팀</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>4</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHE</TEAM_DIVCD>
+    <TEAM_DIVNM>생산팀</TEAM_DIVNM>
+    <TEAM_DIVNM2>생산팀</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>5</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHE</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>생산팀</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>5</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHF</TEAM_DIVCD>
+    <TEAM_DIVNM>품질관리팀</TEAM_DIVNM>
+    <TEAM_DIVNM2>품질관리팀</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>6</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHF</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>품질관리팀</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>6</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHG</TEAM_DIVCD>
+    <TEAM_DIVNM>개발팀</TEAM_DIVNM>
+    <TEAM_DIVNM2>개발팀</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>7</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHG</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>개발팀</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>2</COL_CNT>
+    <SORT_SEQ>7</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHH</TEAM_DIVCD>
+    <TEAM_DIVNM>기타</TEAM_DIVNM>
+    <TEAM_DIVNM2>기타</TEAM_DIVNM2>
+    <SEQNO>1</SEQNO>
+    <COL_CNT>4</COL_CNT>
+    <SORT_SEQ>8</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHH</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>기타</TEAM_DIVNM2>
+    <SEQNO>2</SEQNO>
+    <COL_CNT>4</COL_CNT>
+    <SORT_SEQ>8</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHH</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>기타</TEAM_DIVNM2>
+    <SEQNO>3</SEQNO>
+    <COL_CNT>4</COL_CNT>
+    <SORT_SEQ>8</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+  <DATA>
+    <VENDCD>100010</VENDCD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <REP_NAME>김대웅</REP_NAME>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <TEAM_DIVCD>HHH</TEAM_DIVCD>
+    <TEAM_DIVNM xml:space="preserve"> </TEAM_DIVNM>
+    <TEAM_DIVNM2>기타</TEAM_DIVNM2>
+    <SEQNO>4</SEQNO>
+    <COL_CNT>4</COL_CNT>
+    <SORT_SEQ>8</SORT_SEQ>
+    <TITLE_NM />
+    <NAME />
+    <CHARGE_JOB />
+    <TELNO />
+    <CELLNO />
+    <E_MAIL />
+    <REMARK />
+  </DATA>
+</NewDataSet>

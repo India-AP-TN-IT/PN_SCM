@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CUSTCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RESALE_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VEND_OK" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VEND_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_OK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CUST_OK" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CUST_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CUST_OK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PURC_CLS_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PURC_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PURC_OK_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAT_TYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CUSTCD>10038</CUSTCD>
+    <CUSTNM>범양기업</CUSTNM>
+    <VINCD>PR</VINCD>
+    <MAT_TYPENM>사급</MAT_TYPENM>
+    <PARTNO>81394-44000</PARTNO>
+    <PARTNM>LOCK KNOB</PARTNM>
+    <RESALE_QTY>0</RESALE_QTY>
+    <VEND_OK>0</VEND_OK>
+    <VEND_NAME />
+    <VEND_OK_DATE />
+    <CUST_OK>0</CUST_OK>
+    <CUST_NAME />
+    <CUST_OK_DATE />
+    <PURC_CLS_DATE />
+    <PURC_NAME />
+    <PURC_OK_DATE />
+    <MAT_TYPE>EAR</MAT_TYPE>
+  </DATA>
+</NewDataSet>

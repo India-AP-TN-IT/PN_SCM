@@ -1,0 +1,168 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="REPORT_GUBUN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REPORT_GUBUNNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="POST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HHMM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MSIZE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BALSER" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GBN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="JSER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BQTYSUM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RESTSUM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NQTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMS_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGE" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="ORDNO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="RVENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RNAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RBNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RADDR1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RADDR2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPOST" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="사업장구분" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELIYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BPRT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAUP_PLA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHEET_BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INSPECT_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+				        <xs:element name="TRUCK_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BOX_COUNT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT_PACK_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UP" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <REPORT_GUBUN>(제출용)</REPORT_GUBUN>
+    <REPORT_GUBUNNM>(제출용)</REPORT_GUBUNNM>
+    <BNO>505-81-09688</BNO>
+    <ADDR1>경북 경주시 외동읍 </ADDR1>
+    <ADDR2>외동농공단지길 23</ADDR2>
+    <POST>12123</POST>
+    <NAME>서득수 외 2인</NAME>
+    <VENDCD>100021</VENDCD>
+    <VENDNM>(유)아이티더블유오토모티브코리아</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>1</CHA>
+    <HHMM>09:00</HHMM>
+    <MPNO>82610-3X001RY2</MPNO>
+    <MPNM>HDL ASSY-FR DR I/S, LH</MPNM>
+    <MSIZE>METAL PAINT 사양(MS652-14 PD-1)</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER>920101055567002</BALSER>
+    <GBN>사급</GBN>
+    <JSER>1</JSER>
+    <BQTYSUM>720</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>720</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD>20141028</BYMD>
+    <COMS_CD>소형자재창고</COMS_CD>
+    <IMAGE></IMAGE>
+    <ORDNO></ORDNO>
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR1>울산시 북구 효암로</RADDR1>
+    <RADDR2> 336(연암동 925-1)</RADDR2>
+    <RPOST>12345</RPOST>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE></ORDTYPE>
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T14102810002101EAR01</BARCODE>
+    <SHEET_BARCODE>T14102810002101EAR01</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER>920101055567002</SER>
+    <DELI_DATE></DELI_DATE>
+	<TRUCK_NO></TRUCK_NO>
+    <BOX_COUNT></BOX_COUNT>
+    <UNIT_PACK_QTY>1</UNIT_PACK_QTY>
+    <UP>1</UP>
+    <AMT>111</AMT>
+  </DATA>
+  <DATA>
+    <REPORT_GUBUN>(제출용)</REPORT_GUBUN>
+    <REPORT_GUBUNNM>(제출용)</REPORT_GUBUNNM>
+    <BNO>505-81-09688</BNO>
+    <ADDR1>경북 경주시 외동읍 </ADDR1>
+    <ADDR2>외동농공단지길 23</ADDR2>
+    <POST>12123</POST>
+    <NAME>서득수 외 2인</NAME>
+    <VENDCD>100021</VENDCD>
+    <VENDNM>(유)아이티더블유오토모티브코리아</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>1</CHA>
+    <HHMM>09:00</HHMM>
+    <MPNO>82610-3X001RY2</MPNO>
+    <MPNM>HDL ASSY-FR DR I/S, LH</MPNM>
+    <MSIZE>METAL PAINT 사양(MS652-14 PD-1)</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER>920101055567002</BALSER>
+    <GBN>사급</GBN>
+    <JSER>1</JSER>
+    <BQTYSUM>720</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>720</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD>20141028</BYMD>
+    <COMS_CD>소형자재창고</COMS_CD>
+    <IMAGE></IMAGE>
+    <ORDNO></ORDNO>
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR1>울산시 북구 효암로</RADDR1>
+    <RADDR2> 336(연암동 925-1)</RADDR2>
+    <RPOST>12345</RPOST>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE></ORDTYPE>
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T14102810002101EAR02</BARCODE>
+    <SHEET_BARCODE>T14102810002101EAR02</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER>920101055567002</SER>
+    <DELI_DATE></DELI_DATE>
+    <TRUCK_NO></TRUCK_NO>
+    <BOX_COUNT></BOX_COUNT>
+    <UNIT_PACK_QTY>1</UNIT_PACK_QTY>
+    <UP>1</UP>
+    <AMT>111</AMT>
+  </DATA>
+</NewDataSet>

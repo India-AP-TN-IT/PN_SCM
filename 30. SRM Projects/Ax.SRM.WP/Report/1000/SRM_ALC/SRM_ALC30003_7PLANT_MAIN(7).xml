@@ -1,0 +1,268 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="RNUM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VEND_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLANT_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINE_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TSEQ" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="LSEQ" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VID" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DRV" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ALC1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALC2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TIME_R" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DATE_YRMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHASU" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MODEL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="TWO_PIECE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COLOR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <RNUM>1</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>353 </TSEQ>
+    <LSEQ>353</LSEQ>
+    <VID>C1F 075883</VID>
+    <ORDNO>D4044534</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>DTK </ALC1>
+    <ALC2>14K  </ALC2>
+    <TIME_R>1259</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>C1  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>2</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>354 </TSEQ>
+    <LSEQ>354</LSEQ>
+    <VID>F5F 000735</VID>
+    <ORDNO>D411R100</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>02R </ALC1>
+    <ALC2>A03R </ALC2>
+    <TIME_R>1259</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>F5  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>3</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>355 </TSEQ>
+    <LSEQ>355</LSEQ>
+    <VID>C1F 075803</VID>
+    <ORDNO>D4034810</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>21K </ALC1>
+    <ALC2>14K  </ALC2>
+    <TIME_R>1300</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>C1  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>4</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>356 </TSEQ>
+    <LSEQ>356</LSEQ>
+    <VID>C1F 075940</VID>
+    <ORDNO>E409D044</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>BPF </ALC1>
+    <ALC2>21K  </ALC2>
+    <TIME_R>1304</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>C1  </MODEL>
+    <TWO_PIECE>●</TWO_PIECE>
+    <COLOR>TR</COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>5</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>357 </TSEQ>
+    <LSEQ>357</LSEQ>
+    <VID>E7F 011761</VID>
+    <ORDNO>D403K010</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>82R </ALC1>
+    <ALC2>G80  </ALC2>
+    <TIME_R>1305</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>E7  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>6</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>358 </TSEQ>
+    <LSEQ>358</LSEQ>
+    <VID>C1F 075962</VID>
+    <ORDNO>D4034812</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>21K </ALC1>
+    <ALC2>14K  </ALC2>
+    <TIME_R>1306</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>C1  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>7</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>359 </TSEQ>
+    <LSEQ>359</LSEQ>
+    <VID>HGF 438995</VID>
+    <ORDNO>D406J163</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>MRR </ALC1>
+    <ALC2>R53  </ALC2>
+    <TIME_R>1307</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>HG  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>8</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>360 </TSEQ>
+    <LSEQ>360</LSEQ>
+    <VID>C1F 075992</VID>
+    <ORDNO>D4034819</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>21K </ALC1>
+    <ALC2>14K  </ALC2>
+    <TIME_R>1307</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>C1  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>9</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>361 </TSEQ>
+    <LSEQ>361</LSEQ>
+    <VID>C1F 075811</VID>
+    <ORDNO>D4034601</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>08K </ALC1>
+    <ALC2>14K  </ALC2>
+    <TIME_R>1308</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>C1  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+  <DATA>
+    <RNUM>10</RNUM>
+    <VEND_CD>100023</VEND_CD>
+    <PLANT_GB>7</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <YMD>141031</YMD>
+    <TSEQ>362 </TSEQ>
+    <LSEQ>362</LSEQ>
+    <VID>E7F 011763</VID>
+    <ORDNO>D403K010</ORDNO>
+    <DRV>L</DRV>
+    <ALC1>82R </ALC1>
+    <ALC2>G80  </ALC2>
+    <TIME_R>1309</TIME_R>
+    <DATE_YRMD>2014년 10월 31일</DATE_YRMD>
+    <VENDCDNM>100023 한일산업(주)아산</VENDCDNM>
+    <RPT_NO>VA3010_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <CHASU>23</CHASU>
+    <MODEL>E7  </MODEL>
+    <TWO_PIECE xml:space="preserve"> </TWO_PIECE>
+    <COLOR xml:space="preserve"> </COLOR>
+  </DATA>
+</NewDataSet>

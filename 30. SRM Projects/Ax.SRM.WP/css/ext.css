@@ -1,0 +1,186 @@
+﻿@charset "UTF-8";
+
+/*.x-form-item-body   { width:100% !important;}*/
+/* Ext Base Style */
+.x-body { font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; font-size:12px; background: #fffff; background-color:#ffffff; }
+.x-window-body-default,
+.x-panel-body-light,
+.x-panel-body-light-framed,
+.x-window-header-text-container-default { font-size: 12px; font-weight: normal; font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-panel-header-text-container-light,
+.x-panel-header-text-container-light-framed  { font-size: 12px; font-weight: bold; font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+
+.x-boundlist-item { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; line-height: 18px; }
+.x-form-item, 
+.x-form-field { font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;font-size:12px;height:22px; font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;   }
+.x-form-file-wrap .x-form-trigger-wrap .x-form-text { border: 1px solid; border-color: silver #d9d9d9 #d9d9d9; height: 22px; }
+
+/* LoadMask 배경색 화면 */
+.x-mask-msg {background: #e8e8e8;}
+.x-mask-msg-inner{font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;}
+
+.x-table-form-item {margin-bottom: 0px;}
+.x-btn-default-small { padding: 2px 2px 2px 2px;  }
+.x-btn-default-small .x-btn-inner,
+.x-btn-default-toolbar-small .x-btn-inner,
+.x-btn-plain-toolbar-small .x-btn-inner { font-size: 12px; font-weight: bold; font-family: Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-btn-default-medium .x-btn-inner,
+.x-btn-default-toolbar-medium .x-btn-inner
+.x-btn-plain-toolbar-medium .x-btn-inner { font-size: 13px; font-weight: bold; font-family: Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-btn-default-large .x-btn-inner,
+.x-btn-default-toolbar-large .x-btn-inner,
+.x-btn-plain-toolbar-large .x-btn-inner { font-size: 14px; font-weight: bold; font-family: Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+
+.x-btn-group-header-text-container-default-framed,
+.x-fieldset-header-text { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+
+.x-form-text { padding: 1px 2px 1px 2px; }
+
+.x-html-editor-wrap textarea { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; background-color: white; resize: none; }
+.x-html-editor-container { border: 1px solid; border-color: silver #d9d9d9 #d9d9d9; }
+.x-htmleditor-iframe { border:1px solid #c9c9c9 !important; }
+
+.x-html-editor-tb { background-color:#f2f2f2; height:25px !important; border-bottom:1px solid #d9d9d9 !important; }
+.x-font-select { height:22px; }
+.x-tree-node-text,
+.x-tip-header-text-container-default,
+.x-tip-body-default,
+.x-tip-header-text-container-default,
+.x-tip-header-text-container-form-invalid,
+.x-tip-body-form-invalid,
+.x-panel-header-default { font-size:12px; }
+
+.x-form-item-label,
+.x-form-invalid-under,
+.x-form-display-field  { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-form-display-field-body { height: 22px; }
+
+/* date / month picker 관련 */
+.x-accordion-hd .x-panel-header-text-container, 
+.x-tab-default .x-tab-inner,
+.x-datepicker-column-header {font: bold 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;}
+.x-datepicker-column-header-inner {line-height: 20px;}
+.x-datepicker-date {font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;color: black;padding: 0 7px 0 0;cursor: pointer;line-height: 20px;}
+
+.x-monthpicker-item {font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;}
+.x-monthpicker-item-inner {line-height: 15px;}
+
+.x-tab-default .x-tab-inner,
+.x-panel-header-text-container-default,
+.x-panel-body-default {font-size:12px;font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;}
+.x-panel-header-text-container-default-framed,
+.x-panel-body-default-framed { font-size:12px;font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;}
+
+/* Progress */
+.x-progress-default .x-progress-text {font-size:12px;font-family:Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;}
+
+/* Grid Head 관련 */
+
+
+.x-grid-locked .x-grid-inner-locked {
+border-width: 0 1px 0 0;
+border-style: solid;
+}
+.x-panel-default {
+border-color: #868686;
+padding: 0;
+}
+
+
+.x-panel-default-outer-border-trbl {
+border-color: #c0c0c0!important;
+border-width: 1px!important;
+border-left:1px solid #c0c0c0 !important;
+border-right:1px solid #c0c0c0 !important;
+border-bottom:1px solid #c0c0c0 !important;
+border-top:1px solid #c0c0c0 !important;
+/*
+border-top:0 !important
+*/
+}
+.x-column-header {font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;border-right: 1px solid #d0d0d0;color:#222; font-weight:normal; /* background-color: #157fcc;*/ 
+                  background:url(../images/common/grid_bg.gif) center repeat-x;  }
+
+.x-group-sub-header {background: transparent;}
+
+.x-column-header-over,
+.x-column-header-sort-ASC,
+.x-column-header-sort-DESC {background-image: none;background-color: #e3e3e3;}
+.x-column-header-open {background-color: #e3e3e3;}
+.x-column-header-trigger {/*background-color: #dfeaf2;*/background-color:#e3e3e3 !important;}
+.x-column-header-inner {padding: 5px 7px 5px 7px;text-overflow: ellipsis;text-align:center;}
+
+.x-column-header-over .x-column-header-text { color:#222;}
+.x-column-header-open .x-column-header-text { color:#222;}
+
+.x-group-sub-header .x-column-header-inner {padding: 5px 7px 5px 7px;text-align:center;text-overflow: ellipsis;}
+.x-grid-group-title { font: normal 12px/14px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-grid-rowbody { font: normal 12px/14px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-grid-inner-locked .x-column-header-last, 
+.x-grid-inner-locked .x-grid-cell-last { border-right-width: 1px !important; border-right-color: #c0c0c0; }
+.x-grid-cell { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-grid-cell-inner {text-overflow: ellipsis;padding: 3px 3px 3px 3px;}
+.x-grid-cell-row-checker .x-grid-cell-inner {padding: 3px 3px 3px 3px;}
+
+.x-grid-row-summary .x-grid-cell,
+.x-grid-row-summary .x-grid-rowwrap,
+.x-grid-row-summary .x-grid-cell-rowbody { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+
+.x-grid-empty { background-color: white; font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+
+/* 그리고 짝수행 배경색, 셀력선로우, 마우스오버, 등 색상 */
+.x-grid-row-alt .x-grid-td { background-color: #f4f7ff;  /*#f0f0fa;*/ /* 짝수(even) 라인 배경 색상 */ }
+
+.x-grid-row-before-over .x-grid-td { border-bottom-style: solid; border-bottom-color: #c8c8c8; /*#157fcc; /* over 시 상단라인색 */ }
+.x-grid-row-over .x-grid-td { background-color:  #e8e8e8; /* #48b2ff;*/ color:Black !important;  /* over 시배경색 */ }
+.x-grid-row-over .x-grid-td { border-bottom-style: solid; border-bottom-color: #c8c8c8; /*#157fcc; /* over 시 하단라인색 */ }
+
+.x-grid-row-before-selected .x-grid-td { border-bottom-style: solid; border-bottom-color: #056fbc; /* selected 시 상단 라인색 */}
+.x-grid-row-selected .x-grid-td { background-color: #309ae8; color:White !important; /* selected 시 배경색 */ }
+.x-grid-row-selected .x-grid-td { border-bottom-style: solid; border-bottom-color: #056fbc; /* selected 시 하단 라인색 */ }
+
+.x-grid-row .x-grid-cell-selected { background-color: #359fec; color:White !important;  /* cell selected 색상 */ }
+
+.x-grid-row-over .x-tree-node-text { color:Black !important;  /* over 시배경색 */ }
+.x-grid-row-selected .x-tree-node-text { color:White !important;  /* over 시배경색 */ }
+ 
+.x-menu-item-text { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+
+.x-gecko .x-grid-editor .x-form-text,
+.x-grid-editor .x-form-text, 
+.x-grid-editor .x-form-action-col-field,
+.x-grid-editor .x-form-display-field { font: normal 12px/14px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; padding: 2px 4px 2px 4px; }
+
+.x-box-layout-ct {overflow: hidden;/* zoom: 1;*/}
+.x-quirks .prefixie6 .x-form-trigger-input-cell {height: 22px;}
+.x-quirks .prefixie6 .x-field-toolbar .x-form-trigger-input-cell {height: 22px;}
+
+.x-tab-center{margin-top: -10px; }     
+.x-tab-bar-strip {top: 25px !important; }
+.x-tab-bar .x-tab-bar-body {height: 28px !important; border: 0 !important;}
+.x-tab-bar .x-tab-bar-body .x-box-inner {height: 26px !important; }
+.x-tab-bar .x-tab-bar-body .x-box-inner .x-tab {height: 26px !important; }
+.x-tab-bar .x-tab-bar-body .x-box-inner .x-tab button {height: 26px !important;line-height: 26px !important;}
+.x-tab-bar-default-horizontal {height: 30px; }
+.x-tab-bar-plain {border-width: 0;padding: 0;height: 30px; }
+
+/*.x-message-box .x-box-item .x-box-inner { overflow: auto; }*/
+
+.x-grid-cell-inner  { height:24px !important;}
+
+.x-content-box .x-tab-bar-default-horizontal {height: 30px; }
+
+.x-toolbar { padding: 2px 0 3px 2px; }
+.x-toolbar-text { font-family: Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; font-size: 12px; font-weight: normal; }
+.x-layout-split { background:#fff; width:4px; border-left:1px solid #82a4bd;}
+.x-border-layout-ct { background-color: #ffffff;}
+
+/* CheckBox, Radio 관련 */
+.x-form-checkbox,
+.x-form-radio { width: 15px; height:15px; overflow:hidden; }
+.x-form-cb-label { font: normal 12px Tahoma, Arial, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif; }
+.x-form-cb-wrap-inner-no-box-label .x-form-cb { position: static; }
+
+/* Number 필드 Spin Up/Down 이미지 관련 */
+div.x-form-spinner-up,
+div.x-form-spinner-down { width: 22px !important; height: 11px !important; }

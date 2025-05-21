@@ -1,0 +1,455 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VEND_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLANT_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DATE_YRMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/02</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1354</CNT>
+    <TOTAL>2324</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/02</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>970</CNT>
+    <TOTAL>2324</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/06</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1381</CNT>
+    <TOTAL>2351</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/06</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>970</CNT>
+    <TOTAL>2351</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/07</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1367</CNT>
+    <TOTAL>2350</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/07</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>983</CNT>
+    <TOTAL>2350</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/08</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1365</CNT>
+    <TOTAL>2362</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/08</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>997</CNT>
+    <TOTAL>2362</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/09</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>979</CNT>
+    <TOTAL>979</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/10</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1353</CNT>
+    <TOTAL>2346</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/10</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>993</CNT>
+    <TOTAL>2346</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/11</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>990</CNT>
+    <TOTAL>990</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/12</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>9</CNT>
+    <TOTAL>9</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/13</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1338</CNT>
+    <TOTAL>2295</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/13</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>957</CNT>
+    <TOTAL>2295</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/14</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1363</CNT>
+    <TOTAL>2367</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/14</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1004</CNT>
+    <TOTAL>2367</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/15</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1372</CNT>
+    <TOTAL>2383</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/15</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1011</CNT>
+    <TOTAL>2383</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/16</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1159</CNT>
+    <TOTAL>2145</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/16</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>986</CNT>
+    <TOTAL>2145</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/17</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1366</CNT>
+    <TOTAL>2366</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/17</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1000</CNT>
+    <TOTAL>2366</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/18</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>994</CNT>
+    <TOTAL>994</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/20</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1321</CNT>
+    <TOTAL>2279</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/20</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>958</CNT>
+    <TOTAL>2279</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/21</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1369</CNT>
+    <TOTAL>2388</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/21</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1019</CNT>
+    <TOTAL>2388</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/22</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1332</CNT>
+    <TOTAL>2340</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/22</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1008</CNT>
+    <TOTAL>2340</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/23</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1139</CNT>
+    <TOTAL>2151</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/23</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1012</CNT>
+    <TOTAL>2151</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/24</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1359</CNT>
+    <TOTAL>2371</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/24</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>1012</CNT>
+    <TOTAL>2371</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/25</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>994</CNT>
+    <TOTAL>994</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/27</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>1327</CNT>
+    <TOTAL>2313</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/27</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>986</CNT>
+    <TOTAL>2313</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/28</YMD>
+    <PLANT_GB>1</PLANT_GB>
+    <CNT>730</CNT>
+    <TOTAL>1267</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <YMD>2014/10/28</YMD>
+    <PLANT_GB>4</PLANT_GB>
+    <CNT>537</CNT>
+    <TOTAL>1267</TOTAL>
+    <DATE_YRMD>2014년10월</DATE_YRMD>
+    <VENDCDNM>100010 (주)신진엔지니어링</VENDCDNM>
+    <RPT_NO>VA3040_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+  </DATA>
+</NewDataSet>

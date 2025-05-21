@@ -1,0 +1,303 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VEND_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PLANT_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINE_GB" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALC" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="기준일" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="업체명" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MODEL" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>18  </ALC>
+    <CNT>4</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>84  </ALC>
+    <CNT>4</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>72  </ALC>
+    <CNT>49</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>12  </ALC>
+    <CNT>1</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>67  </ALC>
+    <CNT>2</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>01  </ALC>
+    <CNT>7</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>01  </ALC>
+    <CNT>1</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>07  </ALC>
+    <CNT>8</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>22  </ALC>
+    <CNT>23</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>19  </ALC>
+    <CNT>2</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>15  </ALC>
+    <CNT>4</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>09  </ALC>
+    <CNT>2</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>17  </ALC>
+    <CNT>78</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>21  </ALC>
+    <CNT>23</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>83  </ALC>
+    <CNT>2</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>44  </ALC>
+    <CNT>15</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>16  </ALC>
+    <CNT>142</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>33  </ALC>
+    <CNT>1</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>10  </ALC>
+    <CNT>13</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>05  </ALC>
+    <CNT>1</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>20  </ALC>
+    <CNT>36</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>GS  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>82  </ALC>
+    <CNT>11</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+  <DATA>
+    <VEND_CD>100010</VEND_CD>
+    <PLANT_GB>1</PLANT_GB>
+    <LINE_GB>1</LINE_GB>
+    <ALC>81  </ALC>
+    <CNT>1</CNT>
+    <기준일>2014년 10월 28일</기준일>
+    <업체명>100010 (주)신진엔지니어링</업체명>
+    <RPT_NO>VA3030_R01</RPT_NO>
+    <USERID>DEV1</USERID>
+    <MODEL>SB  </MODEL>
+  </DATA>
+</NewDataSet>

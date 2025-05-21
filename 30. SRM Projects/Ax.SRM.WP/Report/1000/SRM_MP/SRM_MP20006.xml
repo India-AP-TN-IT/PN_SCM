@@ -1,0 +1,1349 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DUMMY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="COMS_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RBNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RVENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RNAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHA" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HHMM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="사업장구분" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="OBJECT_ID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MSIZE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BQTYSUM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NQTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RESTSUM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="JSER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SER" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="GBN" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BYMD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="DELIYMD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BPRT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SAUP_PLA" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODEIMG" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SHEET_BARCODE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="SHEET_BARCODEIMG" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="INSPECT_YN" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINECD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>S/WASHER(아연도금)</MPNM>
+    <MSIZE>M8용*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>13800</RESTSUM>
+    <JSER>27,600</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M6*45L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>76160</RESTSUM>
+    <JSER>76,160</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M6*25L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>52640</RESTSUM>
+    <JSER>52,640</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M8*25L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>84000</RESTSUM>
+    <JSER>84,000</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M6*30L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>61600</RESTSUM>
+    <JSER>61,600</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(아연도금)</MPNM>
+    <MSIZE>M20*40L</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>50</BQTYSUM>
+    <NQTY>50</NQTY>
+    <RESTSUM>975</RESTSUM>
+    <JSER>48,750</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>접시머리 렌치볼트(니켈도금)</MPNM>
+    <MSIZE>M6*15L*1000개</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>35840</RESTSUM>
+    <JSER>71,680</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>콤비네이션 스퀘어</MPNM>
+    <MSIZE>300MM</MSIZE>
+    <ORDNO>상보기업</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>3</BQTYSUM>
+    <NQTY>3</NQTY>
+    <RESTSUM>8460</RESTSUM>
+    <JSER>25,380</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>프로파일용 S/NUT</MPNM>
+    <MSIZE>DSN08-M6*1000개</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>132000</RESTSUM>
+    <JSER>264,000</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>프로파일용 T/NUT</MPNM>
+    <MSIZE>DTN06*M6*1000개</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>96000</RESTSUM>
+    <JSER>192,000</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>임태혁/생산1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0101</MPNO>
+    <MPNM>매직크리너</MPNM>
+    <MSIZE>70*110*30mm</MSIZE>
+    <ORDNO />
+    <UNIT>EA</UNIT>
+    <BQTYSUM>100</BQTYSUM>
+    <NQTY>100</NQTY>
+    <RESTSUM>500</RESTSUM>
+    <JSER>50,000</JSER>
+    <LOTNO>임태혁</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>생산 현장용</REMARK>
+    <LINECD>H00193</LINECD>
+    <LINENM>생산1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>임태혁/생산1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0102</MPNO>
+    <MPNM>실심호스</MPNM>
+    <MSIZE>19mm</MSIZE>
+    <ORDNO>풍산</ORDNO>
+    <UNIT>롤</UNIT>
+    <BQTYSUM>6</BQTYSUM>
+    <NQTY>6</NQTY>
+    <RESTSUM>36600</RESTSUM>
+    <JSER>219,600</JSER>
+    <LOTNO>임태혁</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>사출 반제품 파렛트 수정</REMARK>
+    <LINECD>H00193</LINECD>
+    <LINENM>생산1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>장인진/품질관리1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>아산공장</사업장구분>
+    <OBJECT_ID>HEB</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0096</MPNO>
+    <MPNM>트글클램프</MPNM>
+    <MSIZE>KJF009-21F수평형</MSIZE>
+    <ORDNO />
+    <UNIT>EA</UNIT>
+    <BQTYSUM>15</BQTYSUM>
+    <NQTY>15</NQTY>
+    <RESTSUM>4865</RESTSUM>
+    <JSER>72,975</JSER>
+    <LOTNO>장인진</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>AD CMM JIG용</REMARK>
+    <LINECD>H00184</LINECD>
+    <LINENM>품질관리1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급받는자용)</DUMMY>
+    <COMS_CD>한인혜/생산기술1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0077</MPNO>
+    <MPNM>수은건전지</MPNM>
+    <MSIZE>LR41</MSIZE>
+    <ORDNO />
+    <UNIT>EA</UNIT>
+    <BQTYSUM>20</BQTYSUM>
+    <NQTY>20</NQTY>
+    <RESTSUM>150</RESTSUM>
+    <JSER>3,000</JSER>
+    <LOTNO>한인혜</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>업무용</REMARK>
+    <LINECD>H00189</LINECD>
+    <LINENM>생산기술1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>S/WASHER(아연도금)</MPNM>
+    <MSIZE>M8용*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>13800</RESTSUM>
+    <JSER>27,600</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M6*25L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>52640</RESTSUM>
+    <JSER>52,640</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M6*30L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>61600</RESTSUM>
+    <JSER>61,600</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M8*25L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>84000</RESTSUM>
+    <JSER>84,000</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(니켈도금)</MPNM>
+    <MSIZE>M6*45L(12.9)*1000(개)</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>봉</UNIT>
+    <BQTYSUM>1</BQTYSUM>
+    <NQTY>1</NQTY>
+    <RESTSUM>76160</RESTSUM>
+    <JSER>76,160</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>렌치 BOLT(아연도금)</MPNM>
+    <MSIZE>M20*40L</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>50</BQTYSUM>
+    <NQTY>50</NQTY>
+    <RESTSUM>975</RESTSUM>
+    <JSER>48,750</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>접시머리 렌치볼트(니켈도금)</MPNM>
+    <MSIZE>M6*15L*1000개</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>35840</RESTSUM>
+    <JSER>71,680</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>콤비네이션 스퀘어</MPNM>
+    <MSIZE>300MM</MSIZE>
+    <ORDNO>상보기업</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>3</BQTYSUM>
+    <NQTY>3</NQTY>
+    <RESTSUM>8460</RESTSUM>
+    <JSER>25,380</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>프로파일용 S/NUT</MPNM>
+    <MSIZE>DSN08-M6*1000개</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>132000</RESTSUM>
+    <JSER>264,000</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>강점도/기술지원팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0097</MPNO>
+    <MPNM>프로파일용 T/NUT</MPNM>
+    <MSIZE>DTN06*M6*1000개</MSIZE>
+    <ORDNO>KS</ORDNO>
+    <UNIT>EA</UNIT>
+    <BQTYSUM>2</BQTYSUM>
+    <NQTY>2</NQTY>
+    <RESTSUM>96000</RESTSUM>
+    <JSER>192,000</JSER>
+    <LOTNO>강점도</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>공정설비 제작 및 공정개선용</REMARK>
+    <LINECD>H00191</LINECD>
+    <LINENM>기술지원팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>임태혁/생산1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0101</MPNO>
+    <MPNM>매직크리너</MPNM>
+    <MSIZE>70*110*30mm</MSIZE>
+    <ORDNO />
+    <UNIT>EA</UNIT>
+    <BQTYSUM>100</BQTYSUM>
+    <NQTY>100</NQTY>
+    <RESTSUM>500</RESTSUM>
+    <JSER>50,000</JSER>
+    <LOTNO>임태혁</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>생산 현장용</REMARK>
+    <LINECD>H00193</LINECD>
+    <LINENM>생산1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>임태혁/생산1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0102</MPNO>
+    <MPNM>실심호스</MPNM>
+    <MSIZE>19mm</MSIZE>
+    <ORDNO>풍산</ORDNO>
+    <UNIT>롤</UNIT>
+    <BQTYSUM>6</BQTYSUM>
+    <NQTY>6</NQTY>
+    <RESTSUM>36600</RESTSUM>
+    <JSER>219,600</JSER>
+    <LOTNO>임태혁</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>사출 반제품 파렛트 수정</REMARK>
+    <LINECD>H00193</LINECD>
+    <LINENM>생산1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>장인진/품질관리1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>아산공장</사업장구분>
+    <OBJECT_ID>HEB</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0096</MPNO>
+    <MPNM>트글클램프</MPNM>
+    <MSIZE>KJF009-21F수평형</MSIZE>
+    <ORDNO />
+    <UNIT>EA</UNIT>
+    <BQTYSUM>15</BQTYSUM>
+    <NQTY>15</NQTY>
+    <RESTSUM>4865</RESTSUM>
+    <JSER>72,975</JSER>
+    <LOTNO>장인진</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>AD CMM JIG용</REMARK>
+    <LINECD>H00184</LINECD>
+    <LINENM>품질관리1팀</LINENM>
+  </DATA>
+  <DATA>
+    <DUMMY>(공급자용)</DUMMY>
+    <COMS_CD>한인혜/생산기술1팀</COMS_CD>
+    <BNO>312-23-22717</BNO>
+    <NAME>윤주길</NAME>
+    <ADDR>충청남도 천안시 동남구 신방동 784-1 천안산업기자재유통단지제 3층 3120</ADDR>
+    <RBNO>620-85-21131</RBNO>
+    <RVENDNM>(주)서연이화 울산공장</RVENDNM>
+    <RNAME>김근식</RNAME>
+    <RADDR>울산시 북구 효암로 336(연암동)</RADDR>
+    <ARRIYMD>2016-04-21</ARRIYMD>
+    <CHA>1</CHA>
+    <HHMM>구매</HHMM>
+    <사업장구분>울산공장</사업장구분>
+    <OBJECT_ID>HEA</OBJECT_ID>
+    <VENDCD>100458</VENDCD>
+    <VENDNM>남일종합상사</VENDNM>
+    <MPNO>201604-0077</MPNO>
+    <MPNM>수은건전지</MPNM>
+    <MSIZE>LR41</MSIZE>
+    <ORDNO />
+    <UNIT>EA</UNIT>
+    <BQTYSUM>20</BQTYSUM>
+    <NQTY>20</NQTY>
+    <RESTSUM>150</RESTSUM>
+    <JSER>3,000</JSER>
+    <LOTNO>한인혜</LOTNO>
+    <YMD />
+    <SER />
+    <GBN />
+    <BYMD />
+    <IMAGE />
+    <DELIYMD />
+    <ORDTYPE />
+    <BPRT />
+    <SAUP_PLA />
+    <BARCODE />
+    <BARCODEIMG />
+    <SHEET_BARCODE />
+    <SHEET_BARCODEIMG />
+    <INSPECT_YN />
+    <DELI_DATE />
+    <REMARK>업무용</REMARK>
+    <LINECD>H00189</LINECD>
+    <LINENM>생산기술1팀</LINENM>
+  </DATA>
+</NewDataSet>

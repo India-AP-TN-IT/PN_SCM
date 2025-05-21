@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STD_YEAR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MONEY_UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ASSETS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PERSON_SALES" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DEBT_RATE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QUITY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TURNOVER_RATE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL_SALES" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUSINESS_PROFITS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HKMC_TRADE_RATE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ETC_TRACE_RATE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ORDINARY_INCOME" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <STD_YEAR>2014</STD_YEAR>
+    <MONEY_UNIT>KRW</MONEY_UNIT>
+    <ASSETS>130000</ASSETS>
+    <PERSON_SALES>774</PERSON_SALES>
+    <DEBT>10000</DEBT>
+    <DEBT_RATE>8</DEBT_RATE>
+    <QUITY>120000</QUITY>
+    <TURNOVER_RATE>292</TURNOVER_RATE>
+    <TOTAL_SALES>350000</TOTAL_SALES>
+    <BUSINESS_PROFITS>12000</BUSINESS_PROFITS>
+    <ORDINARY_INCOME>3</ORDINARY_INCOME>
+  </DATA>
+</NewDataSet>

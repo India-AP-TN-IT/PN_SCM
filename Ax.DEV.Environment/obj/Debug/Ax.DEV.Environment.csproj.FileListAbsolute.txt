@@ -1,0 +1,10 @@
+D:\SRCS\AP\Ax_SRM_v4\Ax.DEV.Environment\bin\Debug\Ax.DEV.Environment.dll
+D:\SRCS\AP\Ax_SRM_v4\Ax.DEV.Environment\bin\Debug\Ax.DEV.Environment.pdb
+D:\SRCS\AP\Ax_SRM_v4\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\SRCS\AP\Ax_SRM_v4\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.dll
+D:\SRCS\AP\Ax_SRM_v4\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.pdb
+D:\SRCS\Git\PN_SCM\Ax.DEV.Environment\bin\Debug\Ax.DEV.Environment.dll
+D:\SRCS\Git\PN_SCM\Ax.DEV.Environment\bin\Debug\Ax.DEV.Environment.pdb
+D:\SRCS\Git\PN_SCM\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.csprojResolveAssemblyReference.cache
+D:\SRCS\Git\PN_SCM\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.dll
+D:\SRCS\Git\PN_SCM\Ax.DEV.Environment\obj\Debug\Ax.DEV.Environment.pdb

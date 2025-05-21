@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VEND" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPYM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UPYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DOCRPTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="D_COUNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D_PAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D_KAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D_EAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D_TOTAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="E_COUNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="E_PAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="E_KAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="E_EAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="E_TOTAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOT_COUNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOT_PAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOT_KAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOT_EAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOT_TOTAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VEND>100010</VEND>
+    <VEND_NM>(주)신진엔지니어링 </VEND_NM>
+    <UPYM>2014-10</UPYM>
+    <UPYMD>2014-10-07</UPYMD>
+    <DOCRPTNO>2014-10</DOCRPTNO>
+    <TNO>E2014081WW</TNO>
+    <D_COUNT>2</D_COUNT>
+    <D_PAMT>1828</D_PAMT>
+    <D_KAMT>8152</D_KAMT>
+    <D_EAMT>0</D_EAMT>
+    <D_TOTAMT>9980</D_TOTAMT>
+    <E_COUNT>2</E_COUNT>
+    <E_PAMT>1048</E_PAMT>
+    <E_KAMT>8366</E_KAMT>
+    <E_EAMT>0</E_EAMT>
+    <E_TOTAMT>9414</E_TOTAMT>
+    <TOT_COUNT>4</TOT_COUNT>
+    <TOT_PAMT>2876</TOT_PAMT>
+    <TOT_KAMT>16518</TOT_KAMT>
+    <TOT_EAMT>0</TOT_EAMT>
+    <TOT_TOTAMT>19394</TOT_TOTAMT>
+    <USERID>DEV1</USERID>
+    <RPT_NO>VQ3040_RPT</RPT_NO>
+  </DATA>
+</NewDataSet>

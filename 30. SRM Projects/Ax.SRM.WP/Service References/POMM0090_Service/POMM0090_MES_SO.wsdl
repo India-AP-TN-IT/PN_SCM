@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:p1="http://www.seoyon.com/mm/mes" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="POMM0090_MES_SO" targetNamespace="http://www.seoyon.com/mm/mes" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_POMM0090_MES_SO" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.seoyon.com/mm/Common" targetNamespace="http://www.seoyon.com/mm/Common" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:complexType name="ReqHeader">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">80b675085d2011e79439000000901c62</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="zRoutingCd" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">c9e31eff5c9011e7b87754e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ResHeader">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">8b05daa25d2011e7aa3d000000901c62</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="zResultCd" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">0681a3305c9111e7c3cc54e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="zResultMsg" type="xsd:string">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">0681a3315c9111e7946b54e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.seoyon.com/mm/mes" xmlns:p8="http://www.seoyon.com/mm/Common" targetNamespace="http://www.seoyon.com/mm/mes" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="http://www.seoyon.com/mm/Common" />
+      <xsd:element name="MT_POMM0090_MES_response" type="p1:DT_POMM0090_MES_response" />
+      <xsd:element name="MT_POMM0090_MES" type="p1:DT_POMM0090_MES" />
+      <xsd:complexType name="DT_POMM0090_MES_response">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="EN">납품서 입고 실적 전송 (MES -&gt; SAP)</xsd:documentation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">21497a5d6b7511e7909c000000103d9e</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="ResHeader" type="p8:ResHeader">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">e6214c756b7411e7af2354e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ZMMS0210">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">e62171ac6b7411e7a0c954e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="BUKRS" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e6214c766b7411e7969954e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>회사코드</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="WERKS" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e6214c776b7411e7ce5754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>플랜트(사업장코드)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="DELI_NOTE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a26b7411e78b6354e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>거래명세표 시리얼</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="DELI_NOTE_CNT" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a36b7411e7ccd754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>일렬번호</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="BWART" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a46b7411e7c50354e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>이동유형</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="IF_DATE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a56b7411e7be6854e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>생성일자</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="IF_TIME" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a66b7411e7c65554e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>생성시간</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZRSLT_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a76b7411e7af1a54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리상태</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZMSG_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a86b7411e7abdf54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리 메시지(SAP기준)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZDATE_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171a96b7411e79b3754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리일자(SAP기준)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZTIME_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171aa6b7411e783c754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리시간(SAP기준)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZDATE_PO" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">e62171ab6b7411e7ae5e54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>PO 처리일자/시간</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_POMM0090_MES">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="EN">납품서 입고 실적 전송 (MES -&gt; SAP)</xsd:documentation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">ad028e426b7211e7c9fb000000103d9e</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="ReqHeader" type="p8:ReqHeader">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">a994f4d86b7211e78e3754e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element maxOccurs="unbounded" name="ZMMS0210">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">a9951a536b7211e7b06b54e1ad18e0b0</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="BUKRS" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a3a6b7211e78ab854e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>회사코드</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="WERKS" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a3b6b7211e7833f54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>플랜트(사업장코드)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="DELI_NOTE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a3c6b7211e7a7d054e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>거래명세표 시리얼</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="DELI_NOTE_CNT" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a3d6b7211e7c1b554e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>일렬번호</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="BWART" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a3e6b7211e78ca754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>이동유형</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="IF_DATE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a3f6b7211e78bf654e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>생성일자</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="IF_TIME" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a406b7211e7a8d654e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>생성시간</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="BUDAT" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a416b7211e7cb7e54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>입고일자</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MES_DOC" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a426b7211e7c76e54e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="EBELN" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a436b7211e7baa654e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="EBELP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a446b7211e7a49854e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="LIFNR" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a456b7211e7972c54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>거래처코드</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="LGORT" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a466b7211e7c2bb54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>창고코드</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MATNR" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a476b7211e78a5754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>생산품번</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="TXZ01" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a486b7211e7c5dd54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>비고</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MENGE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a496b7211e7c1b454e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>입고수량</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="NMENGE" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a4a6b7211e7915054e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="MEINS" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a4b6b7211e7967c54e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ELIKZ" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a4c6b7211e7a52954e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="IPNAM" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a4d6b7211e7bdd054e1ad18e0b0</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZRSLT_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a4e6b7211e798f754e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리상태</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZMSG_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a4f6b7211e7967a54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리 메시지(SAP기준)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZDATE_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a506b7211e78bb354e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리일자(SAP기준)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZTIME_SAP" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a516b7211e7bcce54e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>SAP 처리시간(SAP기준)</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="ZDATE_PO" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">a9951a526b7211e79bd154e1ad18e0b0</xsd:appinfo>
+                    <xsd:documentation>PO 처리일자/시간</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_POMM0090_MES">
+    <wsdl:documentation />
+    <wsdl:part name="MT_POMM0090_MES" element="p1:MT_POMM0090_MES" />
+  </wsdl:message>
+  <wsdl:message name="MT_POMM0090_MES_response">
+    <wsdl:documentation />
+    <wsdl:part name="MT_POMM0090_MES_response" element="p1:MT_POMM0090_MES_response" />
+  </wsdl:message>
+  <wsdl:portType name="POMM0090_MES_SO">
+    <wsdl:documentation />
+    <wsdl:operation name="POMM0090_MES_SO">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_POMM0090_MES_SO" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_POMM0090_MES" />
+      <wsdl:output message="p1:MT_POMM0090_MES_response" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="POMM0090_MES_SOBinding" type="p1:POMM0090_MES_SO">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="POMM0090_MES_SO">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="POMM0090_MES_SOService">
+    <wsdl:port name="HTTP_Port" binding="p1:POMM0090_MES_SOBinding">
+      <address location="http://sypodev:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=MES_DEV&amp;receiverParty=&amp;receiverService=&amp;interface=POMM0090_MES_SO&amp;interfaceNamespace=http%3A%2F%2Fwww.seoyon.com%2Fmm%2Fmes" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:POMM0090_MES_SOBinding">
+      <address location="https://sypodev:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=MES_DEV&amp;receiverParty=&amp;receiverService=&amp;interface=POMM0090_MES_SO&amp;interfaceNamespace=http%3A%2F%2Fwww.seoyon.com%2Fmm%2Fmes" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

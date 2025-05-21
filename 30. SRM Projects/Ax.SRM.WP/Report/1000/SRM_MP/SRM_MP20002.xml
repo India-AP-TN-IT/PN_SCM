@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TEAM_DIV" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZCDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ROWNO" msprop:OraDbType="111" type="xs:short" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STANDARD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQT_UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REQT_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="REQT_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MGRT_TELNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TAB" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <VENDNM>허브엠텍</VENDNM>
+    <PONO>201410-0111</PONO>
+    <ROWNO>2</ROWNO>
+    <PARTNM>3M 폼 양면 테이프</PARTNM>
+    <STANDARD>58mm*10m</STANDARD>
+    <MAKER>3M</MAKER>
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>2</REQT_QTY>
+    <REQT_DATE>2014-10-27</REQT_DATE>
+    <MGRT_NAME>박현우</MGRT_NAME>
+    <MGRT_TELNO>5173</MGRT_TELNO>
+    <TAB>1012</TAB>
+    <PO_DATE>2014-10-22</PO_DATE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <VENDNM>허브엠텍</VENDNM>
+    <PONO>201410-0102</PONO>
+    <ROWNO>5</ROWNO>
+    <PARTNM>멀티탭</PARTNM>
+    <STANDARD>220V  5구 * 5M</STANDARD>
+    <MAKER />
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>10</REQT_QTY>
+    <REQT_DATE>2014-10-27</REQT_DATE>
+    <MGRT_NAME>김도희</MGRT_NAME>
+    <MGRT_TELNO>5042</MGRT_TELNO>
+    <TAB>1012</TAB>
+    <PO_DATE>2014-10-22</PO_DATE>
+  </DATA>
+  <DATA>
+    <TEAM_DIV>구매</TEAM_DIV>
+    <BIZCDNM>울산사업장</BIZCDNM>
+    <VENDNM>허브엠텍</VENDNM>
+    <PONO>201410-0120</PONO>
+    <ROWNO>1</ROWNO>
+    <PARTNM>LED 공장등</PARTNM>
+    <STANDARD>100W(195*230*38mm)</STANDARD>
+    <MAKER>LG U PLUS</MAKER>
+    <REQT_UNIT>EA</REQT_UNIT>
+    <REQT_QTY>4</REQT_QTY>
+    <REQT_DATE>2014-10-29</REQT_DATE>
+    <MGRT_NAME>김은호</MGRT_NAME>
+    <MGRT_TELNO>5077</MGRT_TELNO>
+    <TAB>1012</TAB>
+    <PO_DATE>2014-10-22</PO_DATE>
+  </DATA>
+</NewDataSet>

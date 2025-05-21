@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor4">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DEGREE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PROCNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SUB_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHARGER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="F_CORP" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="S_CORP" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <DEGREE>1</DEGREE>
+    <PARTNO>0K54A-662P09P</PARTNO>
+    <PARTNM>SOCKET-POWER</PARTNM>
+    <PARTNM1>SOCKET-POWER</PARTNM1>
+    <PROCNM>111</PROCNM>
+    <SUB_VENDNM>33333</SUB_VENDNM>
+    <ADDR>5555</ADDR>
+    <PHONE>7777</PHONE>
+    <CHARGER>9999</CHARGER>
+    <F_CORP>22</F_CORP>
+    <S_CORP>44</S_CORP>
+    <SQ_YN>WSDFSD</SQ_YN>
+  </DATA>
+  <DATA>
+    <DEGREE>2</DEGREE>
+    <PARTNO>10188-03103</PARTNO>
+    <PARTNM>T/SCREW</PARTNM>
+    <PARTNM1>T/SCREW</PARTNM1>
+    <PROCNM>222</PROCNM>
+    <SUB_VENDNM>4444</SUB_VENDNM>
+    <ADDR>6666</ADDR>
+    <PHONE>8888</PHONE>
+    <CHARGER>DFGDF</CHARGER>
+    <F_CORP>33</F_CORP>
+    <S_CORP>33</S_CORP>
+    <SQ_YN>TTTTT</SQ_YN>
+  </DATA>
+  <DATA>
+    <DEGREE>3</DEGREE>
+    <PARTNO>12418-03121</PARTNO>
+    <PARTNM>T/SCREW FLANGE HEAD</PARTNM>
+    <PARTNM1>T/SCREW FLANGE HEAD</PARTNM1>
+    <PROCNM>234</PROCNM>
+    <SUB_VENDNM>2342</SUB_VENDNM>
+    <CHARGER>3423525</CHARGER>
+    <F_CORP>25235</F_CORP>
+    <S_CORP>352352</S_CORP>
+    <SQ_YN>3523</SQ_YN>
+  </DATA>
+  <DATA>
+    <DEGREE>4</DEGREE>
+    <PARTNO>1S85355-1E000</PARTNO>
+    <PARTNM>BRKT ASSY-ROOM</PARTNM>
+    <PARTNM1>BRKT ASSY-ROOM</PARTNM1>
+    <PROCNM>2342</PROCNM>
+    <SUB_VENDNM>234</SUB_VENDNM>
+    <CHARGER>2342</CHARGER>
+    <F_CORP>2342</F_CORP>
+    <S_CORP>5</S_CORP>
+    <SQ_YN>5235</SQ_YN>
+  </DATA>
+</NewDataSet>

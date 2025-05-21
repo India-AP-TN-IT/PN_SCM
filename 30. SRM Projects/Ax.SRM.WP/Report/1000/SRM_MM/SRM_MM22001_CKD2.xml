@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1" msprop:REFCursorName="REFCursor1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ROWNUM" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ORDER_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STANDARD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PACK_UNIT_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOM_ORDER_QTY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="REST_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DELI_QTY" msprop:OraDbType="113" type="xs:long" minOccurs="0" />
+                <xs:element name="BOX_QTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FAIL_QYT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="ACP_QTY" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <ROWNUM>1</ROWNUM>
+    <ORDER_NO>HAP1120223</ORDER_NO>
+    <VINNM>YFA</VINNM>
+    <PARTNO>M0940-3Q060YDA</PARTNO>
+    <PARTNM>MODULE-P/W SUB S/W W/SEAT WARMER RH</PARTNM>
+    <STANDARD xml:space="preserve"> </STANDARD>
+    <UNIT>EA</UNIT>
+    <PACK_UNIT_QTY>40</PACK_UNIT_QTY>
+    <DOM_ORDER_QTY>120</DOM_ORDER_QTY>
+    <REST_QTY>0</REST_QTY>
+    <DELI_QTY>80</DELI_QTY>
+    <BOX_QTY>2</BOX_QTY>
+    <FAIL_QYT xml:space="preserve"> </FAIL_QYT>
+    <ACP_QTY xml:space="preserve"> </ACP_QTY>
+    <CUSTCD>20007</CUSTCD>
+  </Table1>
+</NewDataSet>

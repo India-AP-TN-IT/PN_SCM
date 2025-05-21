@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CORCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CLS_YYMM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PONO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PO_SEQ" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BIZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STD_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ACCTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MODEL_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TITLE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DEFINITE_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ASSURE_DEFECT_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BEGIN_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BEGIN_TAX_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MIDDLE_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MIDDLE_TAX_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="END_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEAMCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EMPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CLS_AMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <CLS_YYMM>2016-04</CLS_YYMM>
+    <PONO>H2016-180</PONO>
+    <PO_SEQ>1</PO_SEQ>
+    <BIZCD>1001</BIZCD>
+    <BIZNM>울산사업장</BIZNM>
+    <STD_DATE>2016-04-19</STD_DATE>
+    <VENDCD>100280</VENDCD>
+    <VENDNM>(주)창용금형</VENDNM>
+    <ACCTNM>1710101:상품</ACCTNM>
+    <MODEL_NAME>HB-CAR</MODEL_NAME>
+    <TITLE>HB차종 RR DR TRIM 상측 2호신작 선적금형비 지급 품의</TITLE>
+    <DEFINITE_AMT>0</DEFINITE_AMT>
+    <ASSURE_DEFECT_YN />
+    <BEGIN_AMT>0</BEGIN_AMT>
+    <BEGIN_TAX_YN />
+    <MIDDLE_AMT>0</MIDDLE_AMT>
+    <MIDDLE_TAX_YN />
+    <END_AMT>94000000</END_AMT>
+    <TEAMCD />
+    <EMPNO />
+    <REMARK />
+    <CLS_AMT>0</CLS_AMT>
+  </DATA>
+  <DATA>
+    <CORCD>1000</CORCD>
+    <CLS_YYMM>2016-04</CLS_YYMM>
+    <PONO>H2016-181</PONO>
+    <PO_SEQ>1</PO_SEQ>
+    <BIZCD>1001</BIZCD>
+    <BIZNM>울산사업장</BIZNM>
+    <STD_DATE>2016-04-19</STD_DATE>
+    <VENDCD>100280</VENDCD>
+    <VENDNM>(주)창용금형</VENDNM>
+    <ACCTNM>1740106:금형</ACCTNM>
+    <MODEL_NAME>AN-CAR</MODEL_NAME>
+    <TITLE>AN차종 SCREEN HANGER 모비스 양산금형 신작비 지급 품의</TITLE>
+    <DEFINITE_AMT>0</DEFINITE_AMT>
+    <ASSURE_DEFECT_YN />
+    <BEGIN_AMT>0</BEGIN_AMT>
+    <BEGIN_TAX_YN />
+    <MIDDLE_AMT>0</MIDDLE_AMT>
+    <MIDDLE_TAX_YN />
+    <END_AMT>30000000</END_AMT>
+    <TEAMCD />
+    <EMPNO />
+    <REMARK />
+    <CLS_AMT>0</CLS_AMT>
+  </DATA>
+</NewDataSet>

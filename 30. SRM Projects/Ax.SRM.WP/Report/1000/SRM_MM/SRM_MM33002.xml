@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="COMS_NM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MSIZE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MCOST" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUMAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUMQTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D4" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D5" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D6" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D7" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D8" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D9" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D10" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D11" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D12" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D13" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D14" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D15" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D16" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D17" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D18" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D19" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D20" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D21" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D22" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D23" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D24" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D25" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D26" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D27" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D28" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D29" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D30" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D31" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="업체명" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="기준일" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="사업장구분" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RPT_NO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <COMS_NM>MIP</COMS_NM>
+    <MPNO>88700-4F360</MPNO>
+    <MPNM>H/REST ASS'Y-FR SEAT(S/LEATHER 신규 (TILT'G))</MPNM>
+    <MSIZE />
+    <UNIT>EA</UNIT>
+    <MCOST>8182</MCOST>
+    <SUMAMT>11127520</SUMAMT>
+    <SUMQTY>1360</SUMQTY>
+    <D1>52</D1>
+    <D2>60</D2>
+    <D3>0</D3>
+    <D4>0</D4>
+    <D5>0</D5>
+    <D6>40</D6>
+    <D7>88</D7>
+    <D8>120</D8>
+    <D9>120</D9>
+    <D10>160</D10>
+    <D11>80</D11>
+    <D12>0</D12>
+    <D13>120</D13>
+    <D14>120</D14>
+    <D15>100</D15>
+    <D16>100</D16>
+    <D17>100</D17>
+    <D18>100</D18>
+    <D19>0</D19>
+    <D20>0</D20>
+    <D21>0</D21>
+    <D22>0</D22>
+    <D23>0</D23>
+    <D24>0</D24>
+    <D25>0</D25>
+    <D26>0</D26>
+    <D27>0</D27>
+    <D28>0</D28>
+    <D29>0</D29>
+    <D30>0</D30>
+    <D31>0</D31>
+    <업체명>(주)한일씨엔에프</업체명>
+    <기준일>2014-10</기준일>
+    <사업장구분>울산사업장</사업장구분>
+    <USERID>DEV1</USERID>
+    <RPT_NO>SCM_MM33002</RPT_NO>
+  </DATA>
+  <DATA>
+    <COMS_NM>MIP</COMS_NM>
+    <MPNO>88700-4F360</MPNO>
+    <MPNM>H/REST ASS'Y-FR SEAT(S/LEATHER 신규 (TILT'G))</MPNM>
+    <MSIZE />
+    <UNIT>EA</UNIT>
+    <MCOST>8182</MCOST>
+    <SUMAMT>55637600</SUMAMT>
+    <SUMQTY>6800</SUMQTY>
+    <D1>52</D1>
+    <D2>60</D2>
+    <D3>0</D3>
+    <D4>0</D4>
+    <D5>0</D5>
+    <D6>40</D6>
+    <D7>88</D7>
+    <D8>120</D8>
+    <D9>120</D9>
+    <D10>160</D10>
+    <D11>80</D11>
+    <D12>0</D12>
+    <D13>120</D13>
+    <D14>120</D14>
+    <D15>100</D15>
+    <D16>100</D16>
+    <D17>100</D17>
+    <D18>100</D18>
+    <D19>0</D19>
+    <D20>0</D20>
+    <D21>0</D21>
+    <D22>0</D22>
+    <D23>0</D23>
+    <D24>0</D24>
+    <D25>0</D25>
+    <D26>0</D26>
+    <D27>0</D27>
+    <D28>0</D28>
+    <D29>0</D29>
+    <D30>0</D30>
+    <D31>0</D31>
+    <업체명>HAN IL C&amp;F CO., LTD. ULSAN PLANT</업체명>
+    <기준일>2014-10</기준일>
+    <사업장구분>울산사업장</사업장구분>
+    <USERID>DEV1</USERID>
+    <RPT_NO>SCM_MM33002</RPT_NO>
+  </DATA>  
+</NewDataSet>

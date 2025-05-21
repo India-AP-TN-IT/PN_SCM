@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="RNO" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VENDNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ITEMNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PURCHASE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <RNO>5</RNO>
+  </DATA>
+  <DATA>
+    <RNO>8</RNO>
+  </DATA>
+  <DATA>
+    <RNO>3</RNO>
+  </DATA>
+  <DATA>
+    <RNO>1</RNO>
+  </DATA>
+  <DATA>
+    <RNO>2</RNO>
+  </DATA>
+  <DATA>
+    <RNO>10</RNO>
+  </DATA>
+  <DATA>
+    <RNO>6</RNO>
+  </DATA>
+  <DATA>
+    <RNO>7</RNO>
+  </DATA>
+  <DATA>
+    <RNO>4</RNO>
+  </DATA>
+  <DATA>
+    <RNO>9</RNO>
+  </DATA>
+</NewDataSet>

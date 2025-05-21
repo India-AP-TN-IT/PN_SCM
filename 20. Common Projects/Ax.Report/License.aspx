@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="license.aspx.cs" Inherits="license" validateRequest="false" %>

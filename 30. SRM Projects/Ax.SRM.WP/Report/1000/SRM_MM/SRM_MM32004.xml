@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NATIONCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NATIONNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EXP_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VINNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOT_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_LOT_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RCV_VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CCC_AUTH" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANGE_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANGE_NOTE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <NATIONCD>I3CN</NATIONCD>
+    <NATIONNM>China - JHA</NATIONNM>
+    <PARTNO>82315-1F001W</PARTNO>
+    <UNIT>7EA</UNIT>
+    <PARTNM>PNL ASSY FR UPR TRIM LH</PARTNM>
+    <EXP_VENDNM>(주)서연이화 울산공장</EXP_VENDNM>
+    <VINNM>KM</VINNM>
+    <LOT_NO>2015-06-17</LOT_NO>
+    <VEND_LOT_NO>20150616</VEND_LOT_NO>
+    <RCV_VENDNM>한일내장(주)익산</RCV_VENDNM>
+    <CCC_AUTH>N</CCC_AUTH>
+    <CHANGE_YN>CHANGED</CHANGE_YN>
+    <CHANGE_NOTE>테스트로</CHANGE_NOTE>
+  </DATA>
+  <DATA>
+    <NATIONCD>I3CN</NATIONCD>
+    <NATIONNM>China - JHA</NATIONNM>
+    <PARTNO>82315-1F001W</PARTNO>
+    <UNIT>7EA</UNIT>
+    <PARTNM>PNL ASSY FR UPR TRIM LH</PARTNM>
+    <EXP_VENDNM>(주)서연이화 울산공장</EXP_VENDNM>
+    <VINNM>KM</VINNM>
+    <LOT_NO>2015-06-17</LOT_NO>
+    <VEND_LOT_NO>20150616</VEND_LOT_NO>
+    <RCV_VENDNM>한일내장(주)익산</RCV_VENDNM>
+    <CCC_AUTH>N</CCC_AUTH>
+    <CHANGE_YN>CHANGED</CHANGE_YN>
+    <CHANGE_NOTE>테스트로</CHANGE_NOTE>
+  </DATA>
+  <DATA>
+    <NATIONCD>I3CN</NATIONCD>
+    <NATIONNM>China - JHA</NATIONNM>
+    <PARTNO>82315-1F001W</PARTNO>
+    <UNIT>7EA</UNIT>
+    <PARTNM>PNL ASSY FR UPR TRIM LH</PARTNM>
+    <EXP_VENDNM>(주)서연이화 울산공장</EXP_VENDNM>
+    <VINNM>KM</VINNM>
+    <LOT_NO>2015-06-17</LOT_NO>
+    <VEND_LOT_NO>20150616</VEND_LOT_NO>
+    <RCV_VENDNM>한일내장(주)익산</RCV_VENDNM>
+    <CCC_AUTH>N</CCC_AUTH>
+    <CHANGE_YN>CHANGED</CHANGE_YN>
+    <CHANGE_NOTE>테스트로</CHANGE_NOTE>
+  </DATA>
+  <DATA>
+    <NATIONCD>I3CN</NATIONCD>
+    <NATIONNM>China - JHA</NATIONNM>
+    <PARTNO>82315-1F001W</PARTNO>
+    <UNIT>7EA</UNIT>
+    <PARTNM>PNL ASSY FR UPR TRIM LH</PARTNM>
+    <EXP_VENDNM>(주)서연이화 울산공장</EXP_VENDNM>
+    <VINNM>KM</VINNM>
+    <LOT_NO>2015-06-17</LOT_NO>
+    <VEND_LOT_NO>20150616</VEND_LOT_NO>
+    <RCV_VENDNM>한일내장(주)익산</RCV_VENDNM>
+    <CCC_AUTH>N</CCC_AUTH>
+    <CHANGE_YN>CHANGED</CHANGE_YN>
+    <CHANGE_NOTE>테스트로</CHANGE_NOTE>
+  </DATA>
+  <DATA>
+    <NATIONCD>I3CN</NATIONCD>
+    <NATIONNM>China - JHA</NATIONNM>
+    <PARTNO>82315-1F001W</PARTNO>
+    <UNIT>7EA</UNIT>
+    <PARTNM>PNL ASSY FR UPR TRIM LH</PARTNM>
+    <EXP_VENDNM>(주)서연이화 울산공장</EXP_VENDNM>
+    <VINNM>KM</VINNM>
+    <LOT_NO>2015-06-17</LOT_NO>
+    <VEND_LOT_NO>20150616</VEND_LOT_NO>
+    <RCV_VENDNM>한일내장(주)익산</RCV_VENDNM>
+    <CCC_AUTH>N</CCC_AUTH>
+    <CHANGE_YN>CHANGED</CHANGE_YN>
+    <CHANGE_NOTE>테스트로</CHANGE_NOTE>
+  </DATA>  
+</NewDataSet>

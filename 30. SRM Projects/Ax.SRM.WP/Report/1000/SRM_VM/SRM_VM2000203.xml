@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor3">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BIZ_CODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQNO" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SQ_CATEGORY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANS_AMT1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TRANS_RATE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VENDNM2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANS_AMT2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TRANS_RATE2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VENDNM3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TRANS_AMT3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TRANS_RATE3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BIZ_CODE>#45TP01</BIZ_CODE>
+    <SEQNO>1</SEQNO>
+    <SQ_CATEGORY>사출</SQ_CATEGORY>
+  </DATA>
+  <DATA>
+    <BIZ_CODE>#45TP01</BIZ_CODE>
+    <SEQNO>2</SEQNO>
+    <SQ_CATEGORY>사출금형</SQ_CATEGORY>
+  </DATA>
+  <DATA>
+    <BIZ_CODE>#45TP02</BIZ_CODE>
+    <SEQNO>3</SEQNO>
+    <SQ_CATEGORY>사출</SQ_CATEGORY>
+  </DATA>
+</NewDataSet>

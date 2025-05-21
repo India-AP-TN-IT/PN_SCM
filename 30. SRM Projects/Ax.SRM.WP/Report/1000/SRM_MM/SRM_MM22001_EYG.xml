@@ -1,0 +1,524 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="HHMM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MSIZE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BALSER" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="GBN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="JSER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BQTYSUM" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="RESTSUM" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="NQTY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LOTNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BYMD" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="COMS_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGE" msprop:OraDbType="110" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="ORDNO" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="RVENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RNAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RBNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="사업장구분" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="DELIYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ARRIYMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDTYPE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="BPRT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SAUP_PLA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHEET_BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INSPECT_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SER" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                <xs:element name="DELI_DATE" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85873-B1000RNB</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,LH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER></BALSER>
+    <GBN>상품</GBN>
+    <JSER>13</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>60</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD></BYMD>
+    <COMS_CD>상품서열창고</COMS_CD>
+    <IMAGE></IMAGE>
+    <ORDNO></ORDNO>
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE></ORDTYPE>
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030013</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER></SER>
+    <DELI_DATE></DELI_DATE>
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85873-B1000RRY</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,LH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>14</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>220</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030014</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85873-B1500RNB</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,LH</MPNM>
+    <MSIZE />
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>15</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>20</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030015</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85873-B1500RRY</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,LH</MPNM>
+    <MSIZE />
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>16</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>40</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030016</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85878-B1000RNB</MPNO>
+    <MPNM>TRIM ASSY-RR STEP PLATE,LH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>17</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>100</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030017</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85878-B1000RRY</MPNO>
+    <MPNM>TRIM ASSY-RR STEP PLATE,LH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>18</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>240</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030018</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85883-B1000RNB</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,RH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>19</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>60</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030019</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85883-B1000RRY</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,RH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>20</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>220</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030020</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85883-B1500RNB</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,RH</MPNM>
+    <MSIZE />
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>21</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>20</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030021</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85883-B1500RRY</MPNO>
+    <MPNM>TRIM ASSY-FR STEP PLATE,RH</MPNM>
+    <MSIZE />
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>22</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>40</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030022</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85888-B1000RNB</MPNO>
+    <MPNM>TRIM ASSY-RR STEP PLATE,RH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>23</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>100</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030023</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+  <DATA>
+    <BNO>505-81-19376</BNO>
+    <ADDR>경상북도 경주시 강동면 왕신리 1060</ADDR>
+    <NAME>이상준</NAME>
+    <VENDCD>100044</VENDCD>
+    <VENDNM>승보오토모티브(주)</VENDNM>
+    <YMD>20141028</YMD>
+    <CHA>3</CHA>
+    <HHMM>13:00</HHMM>
+    <MPNO>85888-B1000RRY</MPNO>
+    <MPNM>TRIM ASSY-RR STEP PLATE,RH</MPNM>
+    <MSIZE>STD</MSIZE>
+    <UNIT>EA</UNIT>
+    <BALSER />
+    <GBN>상품</GBN>
+    <JSER>24</JSER>
+    <BQTYSUM>0</BQTYSUM>
+    <RESTSUM>0</RESTSUM>
+    <NQTY>240</NQTY>
+    <LOTNO>20141028</LOTNO>
+    <BYMD />
+    <COMS_CD>상품서열창고</COMS_CD>
+    <ORDNO />
+    <RVENDNM>HAN IL E HWA CO., LTD. ULSAN PLANT</RVENDNM>
+    <RNAME>박상근</RNAME>
+    <RBNO>620-85-21131</RBNO>
+    <RADDR>울산시 북구 효암로 336(연암동 925-1)</RADDR>
+    <사업장구분>울산사업장</사업장구분>
+    <DELIYMD>20141028</DELIYMD>
+    <ARRIYMD>20141028</ARRIYMD>
+    <ORDTYPE />
+    <BPRT>ELY</BPRT>
+    <SAUP_PLA>1001</SAUP_PLA>
+    <BARCODE>T141028100044030024</BARCODE>
+    <SHEET_BARCODE>T14102810004403EAG17</SHEET_BARCODE>
+    <INSPECT_YN>NO</INSPECT_YN>
+    <SER />
+    <DELI_DATE />
+  </DATA>
+</NewDataSet>

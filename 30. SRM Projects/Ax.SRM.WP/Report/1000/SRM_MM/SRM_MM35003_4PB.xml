@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="YMD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="KIND" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LINENM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="POS" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHEET_BARCODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NO1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NO2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NO3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NO4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="NO5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALCCD1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALCCD2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALCCD3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALCCD4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ALCCD5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNO5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MPNM5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TESTYN1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TESTYN2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TESTYN3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TESTYN4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TESTYN5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BARCODE5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SHEET" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <YMD>2014-10-24</YMD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <CHA>1</CHA>
+    <KIND>DM</KIND>
+    <LINENM>DM D/T FRT L/RH 조립</LINENM>
+    <POS>[ FL ]</POS>
+    <SHEET_BARCODE>NS40N0010DM002LC401</SHEET_BARCODE>
+    <NO1>1</NO1>
+    <NO2>2</NO2>
+    <NO3>3</NO3>
+    <NO4>4</NO4>
+    <NO5 />
+    <ALCCD1>G010</ALCCD1>
+    <ALCCD2>B023</ALCCD2>
+    <ALCCD3>G023</ALCCD3>
+    <ALCCD4>B018</ALCCD4>
+    <ALCCD5 />
+    <MPNO1>M0311-2W050RYN</MPNO1>
+    <MPNO2>M0311-2W000RYN</MPNO2>
+    <MPNO3>M0311-2W000RYN</MPNO3>
+    <MPNO4>M0311-2W000RYN</MPNO4>
+    <MPNO5 />
+    <MPNM1>MODULE-LWR,LH(조수석,커티시)</MPNM1>
+    <MPNM2>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM2>
+    <MPNM3>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM3>
+    <MPNM4>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM4>
+    <MPNM5 />
+    <QTY1>2</QTY1>
+    <QTY2>8</QTY2>
+    <QTY3>14</QTY3>
+    <QTY4>6</QTY4>
+    <QTY5 />
+    <TESTYN1>YES</TESTYN1>
+    <TESTYN2>YES</TESTYN2>
+    <TESTYN3>YES</TESTYN3>
+    <TESTYN4>YES</TESTYN4>
+    <TESTYN5 />
+    <BARCODE1>S40N0010DM002LC40101</BARCODE1>
+    <BARCODE2>S40N0010DM002LC40102</BARCODE2>
+    <BARCODE3>S40N0010DM002LC40103</BARCODE3>
+    <BARCODE4>S40N0010DM002LC40104</BARCODE4>
+    <BARCODE5 />
+    <PAGE>1</PAGE>
+    <SHEET>1</SHEET>
+  </DATA>
+  <DATA>
+    <YMD>2014-10-24</YMD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <CHA>2</CHA>
+    <KIND>DM</KIND>
+    <LINENM>DM D/T FRT L/RH 조립</LINENM>
+    <POS>[ FL ]</POS>
+    <SHEET_BARCODE>NS40N0010DM002LC402</SHEET_BARCODE>
+    <NO1>1</NO1>
+    <NO2>2</NO2>
+    <NO3 />
+    <NO4 />
+    <NO5 />
+    <ALCCD1>B018</ALCCD1>
+    <ALCCD2>B011</ALCCD2>
+    <ALCCD3 />
+    <ALCCD4 />
+    <ALCCD5 />
+    <MPNO1>M0311-2W000RYN</MPNO1>
+    <MPNO2>M0311-2W000RYN</MPNO2>
+    <MPNO3 />
+    <MPNO4 />
+    <MPNO5 />
+    <MPNM1>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM1>
+    <MPNM2>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM2>
+    <MPNM3 />
+    <MPNM4 />
+    <MPNM5 />
+    <QTY1>19</QTY1>
+    <QTY2>11</QTY2>
+    <QTY3 />
+    <QTY4 />
+    <QTY5 />
+    <TESTYN1>YES</TESTYN1>
+    <TESTYN2>YES</TESTYN2>
+    <TESTYN3 />
+    <TESTYN4 />
+    <TESTYN5 />
+    <BARCODE1>S40N0010DM002LC40201</BARCODE1>
+    <BARCODE2>S40N0010DM002LC40202</BARCODE2>
+    <BARCODE3 />
+    <BARCODE4 />
+    <BARCODE5 />
+    <PAGE>0</PAGE>
+    <SHEET>1</SHEET>
+  </DATA>
+  <DATA>
+    <YMD>2014-10-24</YMD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <CHA>3</CHA>
+    <KIND>DM</KIND>
+    <LINENM>DM D/T FRT L/RH 조립</LINENM>
+    <POS>[ FL ]</POS>
+    <SHEET_BARCODE>NS40N0010DM002LC403</SHEET_BARCODE>
+    <NO1>1</NO1>
+    <NO2>2</NO2>
+    <NO3>3</NO3>
+    <NO4>4</NO4>
+    <NO5>5</NO5>
+    <ALCCD1>B011</ALCCD1>
+    <ALCCD2>B025</ALCCD2>
+    <ALCCD3>G025</ALCCD3>
+    <ALCCD4>B055</ALCCD4>
+    <ALCCD5>B002</ALCCD5>
+    <MPNO1>M0311-2W000RYN</MPNO1>
+    <MPNO2>M0311-2W000RYN</MPNO2>
+    <MPNO3>M0311-2W000RYN</MPNO3>
+    <MPNO4>M0311-2W010RYN</MPNO4>
+    <MPNO5>M0311-2W050RYN</MPNO5>
+    <MPNM1>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM1>
+    <MPNM2>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM2>
+    <MPNM3>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM3>
+    <MPNM4>MODULE-LWR,LH(운전석,커티시+연료도어,ACTUNE)</MPNM4>
+    <MPNM5>MODULE-LWR,LH(조수석,커티시)</MPNM5>
+    <QTY1>1</QTY1>
+    <QTY2>8</QTY2>
+    <QTY3>1</QTY3>
+    <QTY4>6</QTY4>
+    <QTY5>3</QTY5>
+    <TESTYN1>YES</TESTYN1>
+    <TESTYN2>YES</TESTYN2>
+    <TESTYN3>YES</TESTYN3>
+    <TESTYN4>YES</TESTYN4>
+    <TESTYN5>YES</TESTYN5>
+    <BARCODE1>S40N0010DM002LC40301</BARCODE1>
+    <BARCODE2>S40N0010DM002LC40302</BARCODE2>
+    <BARCODE3>S40N0010DM002LC40303</BARCODE3>
+    <BARCODE4>S40N0010DM002LC40304</BARCODE4>
+    <BARCODE5>S40N0010DM002LC40305</BARCODE5>
+    <PAGE>1</PAGE>
+    <SHEET>2</SHEET>
+  </DATA>
+  <DATA>
+    <YMD>2014-10-24</YMD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <CHA>3</CHA>
+    <KIND>DM</KIND>
+    <LINENM>DM D/T FRT L/RH 조립</LINENM>
+    <POS>[ FL ]</POS>
+    <SHEET_BARCODE>NS40N0010DM002LC403</SHEET_BARCODE>
+    <NO1>6</NO1>
+    <NO2>7</NO2>
+    <NO3 />
+    <NO4 />
+    <NO5 />
+    <ALCCD1>B063</ALCCD1>
+    <ALCCD2>B050</ALCCD2>
+    <ALCCD3 />
+    <ALCCD4 />
+    <ALCCD5 />
+    <MPNO1>M0311-2W010RYN</MPNO1>
+    <MPNO2>M0311-2W000RYN</MPNO2>
+    <MPNO3 />
+    <MPNO4 />
+    <MPNO5 />
+    <MPNM1>MODULE-LWR,LH(운전석,커티시+연료도어,ACTUNE)</MPNM1>
+    <MPNM2>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM2>
+    <MPNM3 />
+    <MPNM4 />
+    <MPNM5 />
+    <QTY1>10</QTY1>
+    <QTY2>1</QTY2>
+    <QTY3 />
+    <QTY4 />
+    <QTY5 />
+    <TESTYN1>YES</TESTYN1>
+    <TESTYN2>YES</TESTYN2>
+    <TESTYN3 />
+    <TESTYN4 />
+    <TESTYN5 />
+    <BARCODE1>S40N0010DM002LC40306</BARCODE1>
+    <BARCODE2>S40N0010DM002LC40307</BARCODE2>
+    <BARCODE3 />
+    <BARCODE4 />
+    <BARCODE5 />
+    <PAGE>0</PAGE>
+    <SHEET>2</SHEET>
+  </DATA>
+  <DATA>
+    <YMD>2014-10-24</YMD>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <CHA>4</CHA>
+    <KIND>DM</KIND>
+    <LINENM>DM D/T FRT L/RH 조립</LINENM>
+    <POS>[ FL ]</POS>
+    <SHEET_BARCODE>NS40N0010DM002LC404</SHEET_BARCODE>
+    <NO1>1</NO1>
+    <NO2>2</NO2>
+    <NO3>3</NO3>
+    <NO4>4</NO4>
+    <NO5>5</NO5>
+    <ALCCD1>B061</ALCCD1>
+    <ALCCD2>C061</ALCCD2>
+    <ALCCD3>D018</ALCCD3>
+    <ALCCD4>D025</ALCCD4>
+    <ALCCD5>CLR</ALCCD5>
+    <MPNO1>M0311-2W010RYN</MPNO1>
+    <MPNO2>M0311-2W010RYN</MPNO2>
+    <MPNO3>M0311-2W000NBC</MPNO3>
+    <MPNO4>M0311-2W000NBC</MPNO4>
+    <MPNO5>M0311-B8030RYN</MPNO5>
+    <MPNM1>MODULE-LWR,LH(운전석,커티시+연료도어,ACTUNE)</MPNM1>
+    <MPNM2>MODULE-LWR,LH(운전석,커티시+연료도어,ACTUNE)</MPNM2>
+    <MPNM3>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM3>
+    <MPNM4>MODULE-LWR,LH(운전석,커티시+연료도어)</MPNM4>
+    <MPNM5>MODULE-LWR,LH(커티시와이어링)</MPNM5>
+    <QTY1>7</QTY1>
+    <QTY2>5</QTY2>
+    <QTY3>10</QTY3>
+    <QTY4>6</QTY4>
+    <QTY5>2</QTY5>
+    <TESTYN1>YES</TESTYN1>
+    <TESTYN2>YES</TESTYN2>
+    <TESTYN3>YES</TESTYN3>
+    <TESTYN4>YES</TESTYN4>
+    <TESTYN5>YES</TESTYN5>
+    <BARCODE1>S40N0010DM002LC40401</BARCODE1>
+    <BARCODE2>S40N0010DM002LC40402</BARCODE2>
+    <BARCODE3>S40N0010DM002LC40403</BARCODE3>
+    <BARCODE4>S40N0010DM002LC40404</BARCODE4>
+    <BARCODE5>S40N0010DM002LC40405</BARCODE5>
+    <PAGE>1</PAGE>
+    <SHEET>3</SHEET>
+  </DATA>
+</NewDataSet>

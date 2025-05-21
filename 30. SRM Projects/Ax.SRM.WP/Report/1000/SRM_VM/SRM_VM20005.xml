@@ -1,0 +1,305 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DATA" msdata:Locale="ko-KR">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DATA" msdata:Locale="ko-KR" msprop:REFCursorName="REFCursor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VAATZCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_TIER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="UP_VEND" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SUBCONTR_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VEND_NATCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CITY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="USE_LANG" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM_EN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VENDNM" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RESI_NO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="TEL" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FAX" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR_EN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CITY_EN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REP_NAME_EN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REP_NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIRTH_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FAMILY_ADDR" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LAST_SCH_EN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LAST_SCH" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CAREER_EN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CAREER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="REP_PHOTO" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="EXECUTIVE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANAGER" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PROD_LOCAL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PROD_FOREIGN" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SUBCONTRACT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PROD_TOTAL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ALL_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LABOR_DIV1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LABOR_CNT1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LABOR_DIV2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LABOR_CNT2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LABOR_DIV3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="LABOR_CNT3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="QUAL_CERTI_DIV1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERTI_DATE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_NATION1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_AGENCY1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUAL_CERTI_DIV2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERTI_DATE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_NATION2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_AGENCY2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUAL_CERTI_DIV3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERTI_DATE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_NATION3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_AGENCY3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUAL_CERTI_DIV4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERTI_DATE4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_NATION4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_AGENCY4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="QUAL_CERTI_DIV5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERTI_DATE5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_NATION5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AUTH_AGENCY5" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_CATEGORY" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM_EN1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELINM_EN1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELINM1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELI_TIER1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YEARLY_SALES1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SALES_RATIO1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FIRST_DELI_DATE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHOTO1" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="PARTNM_EN2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELINM_EN2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELINM2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELI_TIER2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YEARLY_SALES2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SALES_RATIO2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FIRST_DELI_DATE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHOTO2" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="PARTNM_EN3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PARTNM3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELINM_EN3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELINM3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_DELI_TIER3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="YEARLY_SALES3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SALES_RATIO3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FIRST_DELI_DATE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="PHOTO3" msprop:OraDbType="102" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="SHAREHOLDER_EN1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHAREHOLDER1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHARE_RATE1" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SHAREHOLDER_EN2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHAREHOLDER2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHARE_RATE2" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SHAREHOLDER_EN3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHAREHOLDER3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHARE_RATE3" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SHAREHOLDER_EN4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHAREHOLDER4" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SHARE_RATE4" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="AFFILIATE_EN1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AFFILIATE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AFFILIATE_EN2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AFFILIATE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AFFILIATE_EN3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AFFILIATE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="US_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="US_REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CHINA_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHINA_REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="EU_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="EU_REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INDIA_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="INDIA_REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="ETC_CNT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ETC_REMARK" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FOUND_DATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="FOUNDER" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CURR_HEAD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="RELATION" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZ_CODE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_CATEGORY1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_GRADE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERT_DATE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VALID_DATE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_CHARGE1" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZ_CODE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_CATEGORY2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_GRADE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERT_DATE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VALID_DATE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_CHARGE2" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="BIZ_CODE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_CATEGORY3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_GRADE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CERT_DATE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="VALID_DATE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="MAIN_CHARGE3" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUILDING" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SCALE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="STOCK_YN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CAPACITY_RATE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CREDIT_EVAL_FILE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="CREDIT_EVAL_FILENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_CERTI_FILE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="SQ_CERTI_FILENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                <xs:element name="INJECTION" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FORMING" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PRESS" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ETC" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TOTAL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DATA>
+    <VAATZCD>#45TP</VAATZCD>
+    <VEND_TIER>2차사</VEND_TIER>
+    <UP_VEND>100000</UP_VEND>
+    <SUBCONTR_YN>NO</SUBCONTR_YN>
+    <VEND_NATCD>대한민국</VEND_NATCD>
+    <CITY>경주</CITY>
+    <USE_LANG>한국어</USE_LANG>
+    <VENDNM_EN>SHINJIN ENGINEERING</VENDNM_EN>
+    <VENDNM>(주)신진엔지니어링</VENDNM>
+    <RESI_NO>5058515548</RESI_NO>
+    <EMAIL>shinjin@shinjin-eng.co.kr</EMAIL>
+    <TEL>054-776-2488      </TEL>
+    <FAX>054-776-2489 </FAX>
+    <ADDR_EN>1704-58,Oenam-ro,Oedong-eup,Gyeongju-si,Gyeongsangbuk-do</ADDR_EN>
+    <CITY_EN>Gyeongju-si</CITY_EN>
+    <ADDR>경북 경주시 외동읍 외남로 1704-58</ADDR>
+    <STATE>Gyeongsangbuk-do</STATE>
+    <REP_NAME_EN>KIM DAE WOONG</REP_NAME_EN>
+    <REP_NAME>김대웅</REP_NAME>
+    <BIRTH_DATE>1969-09-16</BIRTH_DATE>
+    <FAMILY_ADDR>서울</FAMILY_ADDR>
+    <LAST_SCH_EN>HANYANG University</LAST_SCH_EN>
+    <LAST_SCH>한양대학교</LAST_SCH>
+    <CAREER_EN />
+    <CAREER />
+    <REP_PHOTO>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</REP_PHOTO>
+    <EXECUTIVE>4</EXECUTIVE>
+    <MANAGER>28</MANAGER>
+    <PROD_LOCAL>32</PROD_LOCAL>
+    <PROD_FOREIGN>17</PROD_FOREIGN>
+    <SUBCONTRACT>60</SUBCONTRACT>
+    <PROD_TOTAL>49</PROD_TOTAL>
+    <ALL_CNT>141</ALL_CNT>
+    <LABOR_DIV1>없음</LABOR_DIV1>
+    <LABOR_DIV2>없음</LABOR_DIV2>
+    <LABOR_DIV3>없음</LABOR_DIV3>
+    <QUAL_CERTI_DIV1>TS16949</QUAL_CERTI_DIV1>
+    <CERTI_DATE1>2005-11-18</CERTI_DATE1>
+    <AUTH_NATION1>대한민국</AUTH_NATION1>
+    <AUTH_AGENCY1>KFQ</AUTH_AGENCY1>
+    <QUAL_CERTI_DIV2>ISO14000</QUAL_CERTI_DIV2>
+    <CERTI_DATE2>2005-11-15</CERTI_DATE2>
+    <AUTH_NATION2>대한민국</AUTH_NATION2>
+    <AUTH_AGENCY2>KFQ</AUTH_AGENCY2>
+    <QUAL_CERTI_DIV3 />
+    <CERTI_DATE3 />
+    <AUTH_NATION3 />
+    <AUTH_AGENCY3 />
+    <QUAL_CERTI_DIV4 />
+    <CERTI_DATE4 />
+    <AUTH_NATION4 />
+    <AUTH_AGENCY4 />
+    <QUAL_CERTI_DIV5 />
+    <CERTI_DATE5 />
+    <AUTH_NATION5 />
+    <AUTH_AGENCY5 />
+    <MAIN_CATEGORY>사출</MAIN_CATEGORY>
+    <PARTNM_EN1>DM_LWR PNL</PARTNM_EN1>
+    <PARTNM1>디엠_로어 판넬 </PARTNM1>
+    <MAIN_DELINM_EN1>HANIL E-HWA</MAIN_DELINM_EN1>
+    <MAIN_DELINM1>(주)서연이화</MAIN_DELINM1>
+    <MAIN_DELI_TIER1>1차사</MAIN_DELI_TIER1>
+    <YEARLY_SALES1>27143</YEARLY_SALES1>
+    <FIRST_DELI_DATE1>2012-04-01</FIRST_DELI_DATE1>
+    <PHOTO1>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</PHOTO1>
+    <PARTNM_EN2>MD_LWR PNL</PARTNM_EN2>
+    <PARTNM2>엠디_로어 판넬</PARTNM2>
+    <MAIN_DELINM_EN2>HANIL E-HWA</MAIN_DELINM_EN2>
+    <MAIN_DELINM2>(주)서연이화</MAIN_DELINM2>
+    <MAIN_DELI_TIER2>1차사</MAIN_DELI_TIER2>
+    <YEARLY_SALES2>19979</YEARLY_SALES2>
+    <FIRST_DELI_DATE2>2010-07-13</FIRST_DELI_DATE2>
+    <PHOTO2>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</PHOTO2>
+    <PARTNM_EN3>RBK_SW BEZEL</PARTNM_EN3>
+    <PARTNM3>알비케이_스위치 베젤</PARTNM3>
+    <MAIN_DELINM_EN3>HANIL E-HWA</MAIN_DELINM_EN3>
+    <MAIN_DELINM3>(주)서연이화</MAIN_DELINM3>
+    <MAIN_DELI_TIER3>1차사</MAIN_DELI_TIER3>
+    <YEARLY_SALES3>7927</YEARLY_SALES3>
+    <FIRST_DELI_DATE3>2010-10-11</FIRST_DELI_DATE3>
+    <PHOTO3>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</PHOTO3>
+    <SHAREHOLDER_EN1>KIM DAE WOONG</SHAREHOLDER_EN1>
+    <SHAREHOLDER1>김대웅</SHAREHOLDER1>
+    <SHARE_RATE1>60</SHARE_RATE1>
+    <SHAREHOLDER_EN2>YOO JI YOON</SHAREHOLDER_EN2>
+    <SHAREHOLDER2>류지윤</SHAREHOLDER2>
+    <SHARE_RATE2>40</SHARE_RATE2>
+    <SHAREHOLDER_EN3 />
+    <SHAREHOLDER3 />
+    <SHAREHOLDER_EN4 />
+    <SHAREHOLDER4 />
+    <AFFILIATE_EN1>SHINHAN ENG</AFFILIATE_EN1>
+    <AFFILIATE1>㈜신한이엔지</AFFILIATE1>
+    <AFFILIATE_EN2>HANJIN PL</AFFILIATE_EN2>
+    <AFFILIATE2>한진피엘㈜</AFFILIATE2>
+    <AFFILIATE_EN3 />
+    <AFFILIATE3 />
+    <US_REMARK />
+    <CHINA_REMARK />
+    <EU_REMARK />
+    <INDIA_REMARK />
+    <ETC_REMARK />
+    <FOUND_DATE>1993-10-01</FOUND_DATE>
+    <FOUNDER>류지윤</FOUNDER>
+    <CURR_HEAD>김대웅</CURR_HEAD>
+    <RELATION>조카</RELATION>
+    <BIZ_CODE1>#45TP01</BIZ_CODE1>
+    <SQ_CATEGORY1>사출</SQ_CATEGORY1>
+    <SQ_GRADE1>A등급</SQ_GRADE1>
+    <CERT_DATE1>2008-12-24</CERT_DATE1>
+    <VALID_DATE1>2015-12-31</VALID_DATE1>
+    <MAIN_CHARGE1>(주)서연이화 울산공장</MAIN_CHARGE1>
+    <BIZ_CODE2>#45TP01</BIZ_CODE2>
+    <SQ_CATEGORY2>사출금형</SQ_CATEGORY2>
+    <SQ_GRADE2>B등급</SQ_GRADE2>
+    <CERT_DATE2>2008-12-24</CERT_DATE2>
+    <VALID_DATE2>2015-12-31</VALID_DATE2>
+    <MAIN_CHARGE2>(주)서연이화 울산공장</MAIN_CHARGE2>
+    <BIZ_CODE3>#45TP02</BIZ_CODE3>
+    <SQ_CATEGORY3>사출</SQ_CATEGORY3>
+    <SQ_GRADE3>C등급</SQ_GRADE3>
+    <CERT_DATE3>2015-01-09</CERT_DATE3>
+    <VALID_DATE3>2016-12-31</VALID_DATE3>
+    <MAIN_CHARGE3>(주)서연이화 울산공장</MAIN_CHARGE3>
+    <AREA>5276</AREA>
+    <BUILDING>1612</BUILDING>
+    <UNIT>평</UNIT>
+    <SCALE>중소기업</SCALE>
+    <STOCK_YN>비상장</STOCK_YN>
+    <CAPACITY_RATE>95</CAPACITY_RATE>
+    <CREDIT_EVAL_FILE />
+    <CREDIT_EVAL_FILENAME />
+    <SQ_CERTI_FILE>9c23ee11a55d44a18b91e7ae6851ca57</SQ_CERTI_FILE>
+    <SQ_CERTI_FILENAME>신진(사출)_TEST.zip</SQ_CERTI_FILENAME>
+  </DATA>
+</NewDataSet>
